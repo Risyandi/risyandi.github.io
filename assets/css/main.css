@@ -126,6 +126,8 @@
 		font-weight: 300;
 		line-height: 1;
 		letter-spacing: 0.2em;
+	}
+	.font-uppercase {
 		text-transform: uppercase;
 	}
 
@@ -850,3 +852,19 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+		/* margin  */
+		.margin-sm {
+			margin: 5px;
+		}
+		.margin-md {
+			margin: 10px;
+		}
+		.margin-lr {
+			margin: 20px;
+		}
+		.margin-xl {
+			margin: 40px;
+		}
+
+		
