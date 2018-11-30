@@ -3,23 +3,34 @@
 
 <head>
 	<title>Risyandi | Software engineer, designer and an digital nomads </title>
-	<meta charset="utf-8" />
+	<!-- meta tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
 	<meta content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" name="viewport" />
 	<meta content="Risyandi - Software Engineer" name="title" />
-	<meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia " name="description"
-	/>
-	<meta content="Software engineer, front end, design grafis, developer, profesional" name="keywords" />
+	<meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia" name="description" />
+	<meta content="software engineer, front-end, design grafis, developer, professional, ads operations, digital media" name="keywords" />
+	<!-- external library -->
 	<link rel="shortcut icon" href="images/favicon.ico" id="favicon-ico">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<!-- global site tag (gtag.js) - google analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130117056-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-130117056-1');
+	</script>
 </head>
 
 <body class="is-loading">
 	<div id="wrapper">
 		<section id="main">
+			<!-- content -->
 			<h1 class="font-uppercase">Risyandi</h1>
 			<header>
 				<span class="avatar">
@@ -28,7 +39,8 @@
 				<p>Hello I'm an software engineer</p>
 				<p>Designer and an digital nomads from indonesia.</p>
 			</header>
-			<hr/>
+			<hr />
+			<!-- menu button -->
 			<ul class="actions">
 				<li>
 					<a href="https://risyandi.github.io/memorafy" target="_blank" class="button">DOCUMENTATION</a>
@@ -38,6 +50,7 @@
 				</li>
 			</ul>
 			<p class="margin-xl">Connect with me :</p>
+			<!-- footer social media -->
 			<footer>
 				<ul class="icons">
 					<li>
@@ -61,7 +74,6 @@
 				</ul>
 			</footer>
 		</section>
-
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="copyright">
@@ -69,14 +81,15 @@
 			</ul>
 		</footer>
 	</div>
-	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+	 data-dojo-config="usePlainJson: true, isDebug: false"></script>
 	<script>
+		// listen event listen
 		if ('addEventListener' in window) {
 			window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
 			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 		}
-		
-		// Call Popup MailChimp
+		// call popup for mailchimp
 		window.dojoRequire(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us19.list-manage.com", "uuid": "2a153894bebc30e1423a767ec", "lid": "643891b784", "uniqueMethods": true }) })
 	</script>
 
