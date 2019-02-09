@@ -10,13 +10,15 @@
 	<meta content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" name="viewport" />
 	<meta content="Risyandi - Software Engineer" name="title" />
 	<meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia" name="description" />
-	<meta content="software engineer, front-end, design grafis, developer, professional, ads operations, digital media" name="keywords" />
+	<meta content="software engineer, front-end, design grafis, developer, professional, ads operations, digital media"
+	 name="keywords" />
 	<meta name="yandex-verification" content="2345f68659e89e4b" />
 	<!-- external library -->
-	<link rel="shortcut icon" href="images/favicon.ico" id="favicon-ico">
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" href="main-pages/images/favicon.ico" id="favicon-ico">
+	<link rel="stylesheet" href="main-pages/assets/css/main.css" />
+	<link rel="stylesheet" href="main-pages/assets/css/custom-css.css?v=0.1" />
 	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
+		<link rel="stylesheet" href="main-pages/assets/css/noscript.css" />
 	</noscript>
 	<!-- global site tag (gtag.js) - google analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130117056-1"></script>
@@ -35,10 +37,12 @@
 			<h1 class="font-uppercase">Risyandi</h1>
 			<header>
 				<span class="avatar">
-					<img src="images/avatar.jpg" alt="profile" />
+					<img src="main-pages/images/avatar.jpg" alt="profile" />
 				</span>
-				<p>Hello I'm an software engineer</p>
-				<p>Designer and an digital nomads from indonesia.</p>
+				<div class="description">
+					<p>Hello I'm an software engineer</p>
+					<p>Designer and an digital nomads from indonesia.</p>
+				</div>
 			</header>
 			<hr />
 			<!-- menu button -->
@@ -49,39 +53,49 @@
 				<li>
 					<a href="https://risyandi.com/blogs" target="_blank" class="button">BLOGS</a>
 				</li>
+				<li>
+					<a href="https://risyandi.com/portfolios" target="_blank" class="button""> PORTFOLIO</a>
+				</li>
 			</ul>
-			<p class="margin-xl">Connect with me :</p>
-			<!-- footer social media -->
-			<footer>
-				<ul class="icons">
-					<li>
-						<a href="https://boboko.page.link/ey3j" target="_blank" class="fa-twitter">Twitter</a>
-					</li>
-					<li>
-						<a href="https://boboko.page.link/KPM8" target="_blank" class="fa-facebook">Facebook</a>
-					</li>
-					<li>
-						<a href="https://boboko.page.link/oySD" target="_blank" class="fa-linkedin">Linkedin</a>
-					</li>
-					<li>
-						<a href="mailto:Risyandi.94@gmail.com" target="_blank" class="fa-google">Gmail</a>
-					</li>
-					<li>
-						<a href="https://boboko.page.link/uUB8" target="_blank" class="fa-phone">Telephone</a>
-					</li>
-					<li>
-						<a href="https://boboko.page.link/2m6g" target="_blank" class="fa-github">Github</a>
-					</li>
-				</ul>
-			</footer>
+			<p class="
+					 margin-xl">Connect with me :</p>
+						<!-- footer social media -->
+						<footer>
+							<ul class="icons">
+								<li>
+									<a href="https://boboko.page.link/ey3j" target="_blank" class="fa-twitter">Twitter</a>
+								</li>
+								<li>
+									<a href="https://boboko.page.link/KPM8" target="_blank" class="fa-facebook">Facebook</a>
+								</li>
+								<li>
+									<a href="https://boboko.page.link/oySD" target="_blank" class="fa-linkedin">Linkedin</a>
+								</li>
+								<li>
+									<a href="mailto:Risyandi.94@gmail.com" target="_blank" class="fa-google">Gmail</a>
+								</li>
+								<li>
+									<a href="https://boboko.page.link/uUB8" target="_blank" class="fa-phone">Telephone</a>
+								</li>
+								<li>
+									<a href="https://boboko.page.link/2m6g" target="_blank" class="fa-github">Github</a>
+								</li>
+							</ul>
+						</footer>
 		</section>
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="copyright">
-				<li>&copy; Hand craft by Risyandi 2018</li>
+				<li>&copy; Hand craft by Risyandi, since 1994
+					<script>
+						document.write("- " + new Date().getFullYear());
+					</script>
+				</li>
 			</ul>
 		</footer>
 	</div>
+
+	<!-- subscribe mailchimp script -->
 	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
 	 data-dojo-config="usePlainJson: true, isDebug: false"></script>
 	<script>
