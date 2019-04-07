@@ -5,15 +5,15 @@
     <title>Risyandi | Portfolios</title>
     <!-- meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" name="viewport" />
-    <meta content="Risyandi - Software Engineer" name="title" />
-    <meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia" name="description" />
-    <meta content="software engineer, front-end, design grafis, developer, professional, ads operations, digital media"
-        name="keywords" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<meta content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" name="viewport" />
+	<meta content="Risyandi - Software Engineer" name="title" />
+	<meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia" name="description" />
+	<meta content="software engineer, front-end, design grafis, developer, professional, ads operations, digital media"
+	 name="keywords" />
     <!-- external library -->
-    <link rel="stylesheet" href="assets/style/style.css?v=0.1">
+    <link rel="stylesheet" href="assets/style/portofolio-style.css?v=01">
     <link rel="shortcut icon" href="assets/images/favicon.ico" id="favicon-ico">
     <!-- global site tag (gtag.js) - google analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130117056-1"></script>
@@ -27,12 +27,37 @@
 
 <body>
     <!-- background animation gradient -->
+    <header id="header" class="header-animate">
+        <div class="logo-center" id="logo">
+            <!-- logo header -->
+            <a href="#"><img src="assets/images/logo-default.png"></a>
+        </div>
+    </header>
     <div class="back-animate">
         <div class="content">
-            <h1><strong>Hello</strong>, This is Pages for Portfolios!</h1>
-            <h1>Please Waiting, Pages under construction.</h1>
+            <ul class="posts-box"></ul>
+            <div class="modal back-animate" id="modal-name">
+                <div class="modal-sandbox"></div>
+                <div class="modal-box">
+                    <div class="modal-header">
+                        <img src="" class="inner-img" alt="">
+                    </div>
+                    <div class="modal-body">
+                        <h2 class="inner-title"></h2>
+                        <div class="inner-text"></div>
+                        <button class="prev-post text-animate">Previous</button>
+                        <button class="next-post text-animate">Next</button>
+                        <button class="close-post text-animate">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- external scripts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="assets/script/portofolio-script.js"></script>
 </body>
 
 </html>
