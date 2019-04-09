@@ -1,3 +1,6 @@
+/* import */
+@import url(../../../main-pages/assets/css/font-awesome.min.css);
+
 /* css reset, for clearence all styling. and global css */
 html {
     box-sizing: border-box;
@@ -164,7 +167,6 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    /* background: #FFB74D; */
     overflow: auto;
 }
 
@@ -240,6 +242,107 @@ button {
     cursor: auto;
 }
 
+/* footer */
+#footer {
+    -moz-align-self: -moz-flex-end;
+    -webkit-align-self: -webkit-flex-end;
+    -ms-align-self: -ms-flex-end;
+    align-self: flex-end;
+    width: 100%;
+    color: white;
+    cursor: default;
+    text-align: center;
+}
+
+#footer a {
+    color: white;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+#footer ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#footer ul li {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 0 8px 8px;
+    background: white;
+    border-radius: 50%;
+}
+
+.footer-sec {
+    bottom: 0px;
+    position: relative;
+    width: 100%;
+}
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin-top: -0.675em;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: 0.675em 0.5em;
+}
+
+ul.icons li a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 100%;
+    border: solid 1px #c8cccf;
+    line-height: 3.75em;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 3.75em;
+    white-space: nowrap;
+}
+
+ul.icons li a:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+ul.icons li a:before {
+    color: #ffffff;
+    text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+}
+
+ul.icons li a:hover:before {
+    text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+}
+
+ul.icons li a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    font-size: 1.85rem;
+    line-height: inherit;
+    text-align: center;
+    text-indent: 0;
+}
+
+ul.icons li a:hover {
+    border-color: #ff7496;
+}
+
 /* backkground animate */
 .back-animate {
     width: 100%;
@@ -261,7 +364,8 @@ button {
     animation: textAnimate 10s ease infinite;
 }
 
-.header-animate {
+.header-animate,
+.footer-animate {
     background: linear-gradient(50deg, #ee7752, #e73c7e);
     background-size: 400% 400%;
 }
