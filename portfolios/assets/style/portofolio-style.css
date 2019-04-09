@@ -244,7 +244,7 @@ button {
 .back-animate {
     width: 100%;
     height: 100%;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #52eebf);
     background-size: 400% 400%;
     -webkit-animation: gradientAnimate 10s ease infinite;
     -moz-animation: gradientAnimate 10s ease infinite;
@@ -262,11 +262,8 @@ button {
 }
 
 .header-animate {
-    background: linear-gradient(50deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(50deg, #ee7752, #e73c7e);
     background-size: 400% 400%;
-    -webkit-animation: textAnimate 10s ease infinite;
-    -moz-animation: textAnimate 10s ease infinite;
-    animation: textAnimate 10s ease infinite;
 }
 
 @-webkit-keyframes gradientAnimate {
