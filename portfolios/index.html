@@ -7,14 +7,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" name="viewport" />
+    <meta content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1"
+        name="viewport" />
     <meta content="Risyandi - Software Engineer" name="title" />
-    <meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia" name="description" />
+    <meta content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia"
+        name="description" />
     <meta content="software engineer, front-end, design grafis, developer, professional, ads operations, digital media"
         name="keywords" />
+    <!-- meta facebook -->
+    <meta property="og:url" content="https://risyandi.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Risyandi - Software Engineer" />
+    <meta property="og:description"
+        content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia" />
+    <meta property="og:image"
+        content="https://images.pexels.com/photos/1696850/pexels-photo-1696850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=325&w=470" />
+    <!-- meta twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@risyandi94">
+    <meta name="twitter:creator" content="@risyandi94">
+    <meta name="twitter:title" content="Risyandi - Software Engineer">
+    <meta name="twitter:description"
+        content="Risyandi an minimalist personal, tech enthusiast, and a digital nomads from indonesia">
+    <meta name="twitter:image"
+        content="https://images.pexels.com/photos/1696850/pexels-photo-1696850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=325&w=470">
     <!-- external library -->
-    <link rel="stylesheet" href="assets/style/style.css?v=0.1">
+    <link rel="canonical" href="https://risyandi.com/portfolios/" />
+    <link rel="shortlink" href="https://risyandi.com/portfolios/" />
+    <link rel="stylesheet" href="assets/style/portofolio-style.css?v=02">
     <link rel="shortcut icon" href="assets/images/favicon.ico" id="favicon-ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- global site tag (gtag.js) - google analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130117056-1"></script>
     <script>
@@ -27,12 +49,63 @@
 
 <body>
     <!-- background animation gradient -->
+    <header id="header" class="header-animate">
+        <div class="logo-center" id="logo">
+            <!-- logo header -->
+            <a href="/"><img src="assets/images/logo-default.png"></a>
+        </div>
+    </header>
     <div class="back-animate">
         <div class="content">
-            <h1><strong>Hello</strong>, This is Pages for Portfolios!</h1>
-            <h1>Please Waiting, Pages under construction.</h1>
+            <ul class="posts-box"></ul>
+            <div class="modal back-animate" id="modal-name">
+                <div class="modal-sandbox"></div>
+                <div class="modal-box">
+                    <div class="modal-header">
+                        <img src="" class="inner-img" alt="">
+                    </div>
+                    <div class="modal-body">
+                        <h2 class="inner-title"></h2>
+                        <div class="inner-text"></div>
+                        <button class="prev-post text-animate">Previous</button>
+                        <button class="next-post text-animate">Next</button>
+                        <button class="close-post text-animate">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <footer class="footer-sec footer-animate" id="footer">
+        <ul class="icons">
+            <li>
+                <a href="https://boboko.page.link/ey3j" target="_blank" class="fa-twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="https://boboko.page.link/KPM8" target="_blank" class="fa-facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="https://boboko.page.link/oySD" target="_blank" class="fa-linkedin">Linkedin</a>
+            </li>
+            <li>
+                <a href="mailto:Risyandi.94@gmail.com" target="_blank" class="fa-google">Gmail</a>
+            </li>
+            <li>
+                <a href="https://boboko.page.link/uUB8" target="_blank" class="fa-phone">Telephone</a>
+            </li>
+            <li>
+                <a href="https://boboko.page.link/2m6g" target="_blank" class="fa-github">Github</a>
+            </li>
+        </ul>
+        <div class="#">&copy; Hand craft by Risyandi, since 1994
+            <script>
+                document.write("- " + new Date().getFullYear());
+            </script>
+        </div>
+    </footer>
+
+    <!-- external scripts -->
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script defer src="assets/script/portofolio-script.js?v=02"></script>
 </body>
 
 </html>
