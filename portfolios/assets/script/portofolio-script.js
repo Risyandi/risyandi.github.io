@@ -55,20 +55,20 @@ var postLength = post.length;
 $(".posts-box").empty();
 for (i = 0; i < postLength; i++) {
     var listItem =
-        '<li>' +
-        '<div class="card">' +
-        '<a class="button" href="' + post[i].postLink + '" data-obj="' + i + '">' +
-        '<img src="' + post[i].postThumb + '" alt="">' +
-        '</a>' +
-        '<div>' +
-        '<h3>' + post[i].postTitle + '</h3>' +
-        '<p>' + post[i].postAbstract + '</p>' +
-        '</div>' +
-        '<div>' +
-        '<a class="button text-animate" href="' + post[i].postLink + '" data-obj="' + i + '">Read More</a>' +
-        '</div>' +
-        '</div>' +
-        '</li>';
+        `<li>
+            <div class="card">
+                <a class="button" href="${post[i].postLink}" data-obj="${i}">
+                    <img src="${post[i].postThumb}" alt="">
+                </a>
+                <div>
+                    <h3>${post[i].postTitle}</h3>
+                    <p>${post[i].postAbstract}</p>
+                </div>
+                <div>
+                <a class="button text-animate" href="${post[i].postLink}" data-obj="${i}">Read More</a>
+                </div>
+            </div>
+        </li>`;
 
     $(".posts-box").append(listItem);
 };
