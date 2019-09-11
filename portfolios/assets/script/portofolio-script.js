@@ -78,9 +78,9 @@ for (i = 0; i < postLength; i++) {
 var thisElement = 0;
 
 function innerContent(content) {
-    $(".inner-img").attr("src", post[content].postImg);
-    $(".inner-title").html(post[content].postTitle);
-    $(".inner-text").html(post[content].postContent);
+    document.querySelector('.inner-img').setAttribute('src', post[content].postImg);
+    document.querySelector('.inner-title').innerHTML = post[content].postTitle;
+    document.querySelector('.inner-text').innerHTML = post[content].postContent;
 };
 
 $(".button").click(function (e) {
