@@ -150,6 +150,7 @@ body {
 /* Basic */
 
 @media screen and (max-width: 480px) {
+
     html,
     body {
         min-width: 320px;
@@ -233,6 +234,7 @@ textarea {
 }
 
 @media screen and (max-width: 1680px) {
+
     body,
     input,
     select,
@@ -242,6 +244,7 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
+
     body,
     input,
     select,
@@ -811,7 +814,6 @@ button:disabled,
 
 #main {
     position: relative;
-    max-width: 100%;
     min-width: 27em;
     padding: 2em 3em 3em 3em;
     background: #ffffff;
@@ -858,12 +860,19 @@ button:disabled,
     background: #c8cccf;
 }
 
+@media screen and (min-width: 768px) {
+    .max-width-50 {
+        max-width: 50%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #main {
         min-width: 0;
         width: 100%;
         padding: 4em 2em 2.5em 2em;
     }
+
     #main .avatar:before {
         left: -2em;
         width: calc(100% + 4em);
