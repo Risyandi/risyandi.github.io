@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/risyandi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://risyandi.com
+  * I am risyandi (https://keybase.io/risyandi) on keybase.
+  * I have a public key with fingerprint 0232 BECC 5844 F032 F841  9F79 7BEF 6DAF F960 F13F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b781c97017e4aad15c7d2abd5389be36218a74ed1e59787ea02acd7b846e0a830a",
+      "fingerprint": "0232becc5844f032f8419f797bef6daff960f13f",
+      "host": "keybase.io",
+      "key_id": "7bef6daff960f13f",
+      "kid": "0101b781c97017e4aad15c7d2abd5389be36218a74ed1e59787ea02acd7b846e0a830a",
+      "uid": "b16fd966bcf3544c38b45f10c3362d19",
+      "username": "risyandi"
+    },
+    "service": {
+      "hostname": "risyandi.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1556692394,
+  "expire_in": 157680000,
+  "prev": "37785b5ccc598bbfa9db8fb32f7f45a40ef2a7f1106575c33389d4d1be916bbd",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJtaE5RHH8ehnmat4R5KVyZlsfcc+8999z7sMx7lLyVpNXjnHvOedw2
+9z7uvRvztFrbUIphYVYTRSISH2Qf1F4wy1vK+0Q2kZolCg3l3MUX+eh8OZ3/+f1+
+5/f7n//1EYMjsWghe16TPNb/M3q79WhZpLiz8FxGIi6tkBIZqYQNbKyUMj9IlthU
+SkgykAFBBrBMJAPENIwpgBaiCiYUqoZJmKorwMBIYxQwaCIDMSwr2KKIGJrOZGyo
+MpbiEredFPPSnu0EoayiKoRZFjQ0jcuqwg0NmByZiDCuU8y5qcscqFwQt7h+yBDm
+CPZZge2KmjgkB+z9A/+ffZcNyBGgc2rqOrG4CjXNUg2iQQ5kSxUyFJgh0Geeg7cy
+gfZsvwI71JYq45KoltsWCxsbJvkLUWC5WwU37bmBa7ml4mZLEKT9RMgMKtIhdDsj
+yd8iSWILjpMSjHLm+bbrSAkgkFZgh6oAQl03FdXU4hLbkbY9lrRDBES6IYsVvsPK
+haSKkAEJtET/TYMQjk1KDE7ENyCuQazJjCsYcQBkHSIoMoqGUY0CwkygE0KlMNY2
+x5USUNjEKSHp2ykHB2UekyrbWoqzItFYZOiQQeF8RWLDR/+Zuqarw37EnuScuNCP
+WvOLJhiZ7Jo576u7805XRT+RqrENr8aNfnE/G+680+IfCLqvf/1M/blNz9c4m742
+d8TI0tdeY1fbznj+2Tt1PSUHO4d2xEbcamiMry2/FqXejwUf2ivqc5dczL+7/FIw
+Y9Iyxa3v29aOPmZ/T71Z+tKcd2j69yVqc+rLkdre+e/iHx4svHLVrlw3GRfnvM19
+PGpYkd7pti3Me7jn3vaCWZm+B6vG1N6Y2Xwmr2vfkCmnzjQ1Lp4ztmpX77zM8dqp
+u0EA12+ujyw6+ijP3riit8jtT41/5n0befnbou6VhednT7tpb97XMDHR3lWXyZw8
+3LM/vmFvXce66tVZT1f8AgGZQqI=
+=JDLZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/risyandi
+
+==================================================================
