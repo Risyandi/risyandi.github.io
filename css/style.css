@@ -1,0 +1,1765 @@
+@charset "utf-8";
+/*
+/*	Copyright (c) 2018 Marketify
+/*	Author: Marketify
+/*	This file is made for CURRENT TEMPLATE
+
+
+	01) EDINA BASE
+	02) EDINA HEADER
+	03) EDINA MOBILE MENU
+	04) EDINA HAMBURGER
+	05) EDINA CONTENT
+	06) EDINA ABOUT
+	07)	EDINA SERVICES
+	08)	EDINA PORTFOLIO
+	09) EDINA TESTIMONIALS
+	10) EDINA NEWS
+	11) EDINA PARTNERS
+	12) EDINA WORK TOGETHER
+	13) EDINA CONTACT
+	14) EDINA FOOTER
+	15) EDINA TO TOP
+	16) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+	
+
+/*---------------------------------------------------*/
+/*	01) EDINA BASE
+/*---------------------------------------------------*/
+
+html {
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px
+}
+body{
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 1.8;
+	letter-spacing: 0.5px;
+	word-wrap: break-word;
+	font-weight: 400;
+	background-color: #000000;
+}
+svg{
+	fill: currentcolor;
+	width: 15px;
+	height: 15px;
+}
+img.svg{
+	width: 15px;
+	height: 15px;
+}
+.edina_tm_wrapper_all,
+.edina_tm_section,
+.edina_tm_content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_content{
+	position: relative;
+	z-index: 1;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #fff;
+}
+
+/*---------------------------------------------------*/
+/*	02) EDINA HEADER
+/*---------------------------------------------------*/
+
+.edina_tm_header{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: fixed;
+	top: 0px;
+	z-index: 55;
+	
+	-webkit-transition: all .2s ease;
+	   -moz-transition: all .2s ease;
+	    -ms-transition: all .2s ease;
+	     -o-transition: all .2s ease;
+	        transition: all .2s ease;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_header.scroll{
+	background-color: rgba(0,0,0,.9);
+	
+	box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+.edina_tm_header.scroll .edina_tm_navigation_wrap .menu > ul > li a{color: #fff;}
+.edina_tm_header.scroll .edina_tm_navigation_wrap .social_icons_wrap > ul > li a{color: #fff;}
+.edina_tm_header.scroll .edina_tm_navigation_wrap .menu > ul > li a:hover{color: #ed2629;}
+.edina_tm_header.scroll .edina_tm_navigation_wrap .social_icons_wrap > ul > li a:hover{color: #ed2629;}
+.edina_tm_navigation_wrap,
+.edina_tm_navigation_wrap .navigation_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_navigation_wrap{
+	min-height: 38px;	
+	line-height: 38px;
+	padding: 35px 0px;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.edina_tm_header.scroll .edina_tm_navigation_wrap{padding: 24px 0px;}
+.edina_tm_navigation_wrap .navigation_inner{position: relative;}
+.edina_tm_navigation_wrap .logo{
+	position: absolute;
+	left: 0px;
+	top: -3px;
+}
+.edina_tm_navigation_wrap .nav_list_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	text-align: center;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_navigation_wrap .menu > ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_navigation_wrap .menu > ul > li{
+	margin: 0px 30px 0px 0px;
+	display:inline-block; 
+}
+.edina_tm_navigation_wrap .menu > ul > li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 600;
+	display: inline-block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_navigation_wrap .menu > ul > li a:hover{color: #ed2629;}
+.edina_tm_navigation_wrap .social_icons_wrap{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.edina_tm_navigation_wrap .social_icons_wrap > ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_navigation_wrap .social_icons_wrap > ul > li{
+	margin: 0px 10px 0px 0px;
+	display: inline-block;
+}
+.edina_tm_navigation_wrap .social_icons_wrap > ul > li:last-child{margin-right: 0px;}
+.edina_tm_navigation_wrap .social_icons_wrap > ul > li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_navigation_wrap .social_icons_wrap > ul > li a:hover{color: #ed2629;}
+
+/*---------------------------------------------------*/
+/*	03) EDINA MOBILE MENU
+/*---------------------------------------------------*/
+
+.edina_tm_mobile_menu_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: rgba(0,0,0,.95);
+	padding: 50px 20px;
+	display: none;
+	border-bottom: 1px solid rgba(255,255,255,.09);
+	border-top: 1px solid rgba(255,255,255,.09);
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */	
+}
+.edina_tm_mobile_menu_wrap .mob_menu{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_mobile_menu_wrap .mob_menu > ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_mobile_menu_wrap .mob_menu > ul > li{margin: 0px 0px 10px 0px;}
+.edina_tm_mobile_menu_wrap .mob_menu > ul > li:last-child{margin-bottom: 0px;}
+.edina_tm_mobile_menu_wrap .mob_menu > ul > li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/*---------------------------------------------------*/
+/*	04) EDINA HAMBURGER
+/*---------------------------------------------------*/
+
+.edina_tm_trigger{
+	position: absolute;
+	right: 0px;
+	top: 11px;
+	display: none;
+}
+.edina_tm_trigger .hamburger{
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+.edina_tm_trigger .hamburger-box{
+    width: 30px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+}
+.edina_tm_trigger .hamburger-inner{
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+}
+.edina_tm_trigger .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+    width: 30px;
+    height: 2px;
+    background-color: #333333;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+	
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+.edina_tm_trigger .hamburger-inner::before,
+.edina_tm_trigger .hamburger-inner::after{
+    content: "";
+    display: block;
+}
+.edina_tm_trigger .hamburger-inner::before{top: -8px;}
+.edina_tm_trigger .hamburger-inner::after{ bottom: -10px;}
+.edina_tm_trigger .hamburger--collapse-r .hamburger-inner{
+    top: auto;
+    bottom: 0;
+    transition-duration: 0.13s;
+    transition-delay: 0.13s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.edina_tm_trigger .hamburger--collapse-r .hamburger-inner::after{
+    top: -16px;
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+}
+.edina_tm_trigger .hamburger--collapse-r .hamburger-inner::before{
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.edina_tm_trigger .hamburger--collapse-r.is-active .hamburger-inner{
+    transform: translate3d(0, -10px, 0) rotate(45deg);
+    transition-delay: 0.22s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.edina_tm_trigger .hamburger--collapse-r.is-active .hamburger-inner::after{
+    top: 0;
+    opacity: 0;
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+}
+.edina_tm_trigger .hamburger--collapse-r.is-active .hamburger-inner::before{
+    top: 0;
+    transform: rotate(90deg);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.edina_tm_trigger .hamburger{
+	padding: 0px;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.edina_tm_trigger .hamburger-box{display: block;}
+.edina_tm_trigger .hamburger .hamburger-inner::before,
+.edina_tm_trigger .hamburger .hamburger-inner::after,
+.edina_tm_trigger .hamburger .hamburger-inner{
+	background-color: #fff;
+	width: 30px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+
+/*---------------------------------------------------*/
+/*	05) EDINA CONTENT
+/*---------------------------------------------------*/
+
+.edina_tm_hero_header{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_universal_box_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_universal_box_wrap .bg_wrap{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 10;
+}
+.edina_tm_universal_box_wrap .overlay_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 15;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.edina_tm_universal_box_wrap .overlay_video{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 15;
+	overflow: hidden;
+}
+.edina_tm_universal_box_wrap .overlay_video video{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+}
+.edina_tm_universal_box_wrap .overlay_color{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 20;
+}
+.edina_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.9);}
+.edina_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/1.jpg);}
+.edina_tm_universal_box_wrap .content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 25;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_universal_box_wrap .content.hero{
+	height: 100vh;
+	overflow: hidden;
+}
+.edina_tm_universal_box_wrap .hero_title{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 20;
+	max-width: 40%;
+}
+.container.hero{
+	position: static;
+	width: 1000px;
+}
+.edina_tm_discover_wrap{
+	position: absolute;
+	z-index: 333;
+	right: 40px;
+	bottom: 100px;
+	transform: rotate(-90deg);
+}
+.edina_tm_discover_wrap a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	display: block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_discover_wrap a:hover{color: #ed2629;}
+.edina_tm_discover_wrap a:hover:before{color: #ed2629;}
+.edina_tm_discover_wrap a:before{
+	content: '\f104';
+    position: absolute;
+    bottom: -8px;
+    left: -17px;
+    font-family: xcon;
+    font-size: 24px;
+    color: #fff;
+    -webkit-animation: secdownmoving 1000ms linear 0s infinite;
+    -o-animation: secdownmoving 1000ms linear 0s infinite;
+    animation: secdownmoving 1000ms linear 0s infinite;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+@keyframes secdownmoving{
+    0%{
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    50%{
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        -o-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    100%{
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+/*---------------------------------------------------*/
+/*	06) EDINA ABOUT
+/*---------------------------------------------------*/
+
+.edina_tm_about_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 95px;
+	position: relative;
+	margin-top: -6px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_main_title_holder_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	position: relative;
+	padding-bottom: 85px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_main_title_holder_wrap.about{padding-bottom: 80px;}
+.edina_tm_main_title_holder_wrap.portfolio{padding-bottom: 70px;}
+.edina_tm_main_title_holder_wrap.testimonial{padding-bottom: 78px;}
+.edina_tm_main_title_holder_wrap.news{padding-bottom: 78px;}
+.edina_tm_main_title_holder_wrap.contact{padding-bottom: 69px;}
+.edina_tm_main_title_holder_wrap .number_wrap{
+	width: 140px;
+	height: 80px;
+	line-height: 80px;
+	display: inline-block;
+	background-color: #ed2629;
+}
+.edina_tm_main_title_holder_wrap .number_wrap{margin-bottom: 10px;}
+.edina_tm_main_title_holder_wrap .number_wrap span{
+	color: #FFF;
+	font-size: 40px;
+	font-weight: 800;
+	display: inline-block;
+	font-family: "Montserrat";
+}
+.edina_tm_main_title_holder_wrap .title_wrap span{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 800;
+	display: inline-block;
+	font-family: "Montserrat";
+}
+.edina_tm_about_wrap .author_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_about_wrap .leftbox{
+	width: 35%;
+	float: right;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url(..//img/about/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.edina_tm_about_wrap .rightbox{
+	width: 65%;
+	float: left;
+	padding: 0px 65px 0px 0px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_about_wrap .rightbox .name_holder{margin-bottom: 25px;}
+.edina_tm_about_wrap .rightbox .name_holder h3{color: #fff;}
+.edina_tm_about_wrap .rightbox .definition p{
+	color: #eee;
+	margin-bottom: 20px;
+}
+.edina_tm_about_wrap .rightbox .sharebox ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_about_wrap .rightbox .sharebox ul li{
+	margin: 0px 9px 0px 0px;
+	display: inline-block;
+}
+.edina_tm_about_wrap .rightbox .sharebox ul li span{
+	color: #fff;
+	padding-right: 12px;
+	font-size: 16px;
+}
+.edina_tm_about_wrap .rightbox .sharebox ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_about_wrap .rightbox .sharebox ul li a:hover{color: #ed2629;}
+
+/*---------------------------------------------------*/
+/*	07)	EDINA SERVICES
+/*---------------------------------------------------*/
+
+.edina_tm_services_total_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	background-color: #060606;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_services_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	padding-bottom: 23px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_list_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_list_wrap > ul.total{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_list_wrap > ul.total > li{
+	margin: 0px;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_list_wrap > ul.total > li .inner_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.edina_tm_list_wrap[data-column="1"] ul.total > li{width: 100%;}
+.edina_tm_list_wrap[data-column="2"] ul.total > li{width: 50%;}
+.edina_tm_list_wrap[data-column="3"] ul.total > li{width: 33.3333%;}
+.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 25%;}
+.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 20%;}
+.edina_tm_list_wrap[data-space="0"] ul.total{margin-left: 0px;}
+.edina_tm_list_wrap[data-space="1"] ul.total{margin-left: 1px;}
+.edina_tm_list_wrap[data-space="2"] ul.total{margin-left: 2px;}
+.edina_tm_list_wrap[data-space="3"] ul.total{margin-left: 3px;}
+.edina_tm_list_wrap[data-space="4"] ul.total{margin-left: 4px;}
+.edina_tm_list_wrap[data-space="5"] ul.total{margin-left: 5px;}
+.edina_tm_list_wrap[data-space="10"] ul.total{margin-left: -10px;}
+.edina_tm_list_wrap[data-space="20"] ul.total{margin-left: -20px;}
+.edina_tm_list_wrap[data-space="30"] ul.total{margin-left: -30px;}
+.edina_tm_list_wrap[data-space="40"] ul.total{margin-left: -40px;}
+.edina_tm_list_wrap[data-space="50"] ul.total{margin-left: -50px;}
+.edina_tm_list_wrap[data-space="60"] ul.total{margin-left: -60px;}
+.edina_tm_list_wrap[data-space="70"] ul.total{margin-left: -70px;}
+.edina_tm_list_wrap[data-space="80"] ul.total{margin-left: -80px;}
+.edina_tm_list_wrap[data-space="0"] ul.total > li{padding: 0px;}
+.edina_tm_list_wrap[data-space="1"] ul.total > li{padding-left: 1px; margin-bottom: 1px;}
+.edina_tm_list_wrap[data-space="2"] ul.total > li{padding-left: 2px; margin-bottom: 2px;}
+.edina_tm_list_wrap[data-space="3"] ul.total > li{padding-left: 3px; margin-bottom: 3px;}
+.edina_tm_list_wrap[data-space="4"] ul.total > li{padding-left: 4px; margin-bottom: 4px;}
+.edina_tm_list_wrap[data-space="5"] ul.total > li{padding-left: 5px; margin-bottom: 5px;}
+.edina_tm_list_wrap[data-space="10"] ul.total > li{padding-left: 10px; margin-bottom: 10px;}
+.edina_tm_list_wrap[data-space="20"] ul.total > li{padding-left: 20px; margin-bottom: 20px;}
+.edina_tm_list_wrap[data-space="30"] ul.total > li{padding-left: 30px; margin-bottom: 30px;}
+.edina_tm_list_wrap[data-space="40"] ul.total > li{padding-left: 40px; margin-bottom: 40px;}
+.edina_tm_list_wrap[data-space="50"] ul.total > li{padding-left: 50px; margin-bottom: 50px;}
+.edina_tm_list_wrap[data-space="60"] ul.total > li{padding-left: 60px; margin-bottom: 60px;}
+.edina_tm_list_wrap[data-space="70"] ul.total > li{padding-left: 70px; margin-bottom: 70px;}
+.edina_tm_list_wrap[data-space="80"] ul.total > li{padding-left: 80px; margin-bottom: 80px;}
+
+.edina_tm_services_wrap .service_icon{
+	margin-bottom: 18px;
+	display: inline-block;
+}
+.edina_tm_services_wrap .service_icon .svg{
+	width: 40px;
+	height: 40px;
+	color: #ed2629;
+}
+.edina_tm_services_wrap ul.total .inner_list span{position: absolute;}
+.edina_tm_services_wrap ul.total .inner_list .first{
+	top: 0px;
+	left: 0px;
+}
+.edina_tm_services_wrap ul.total .inner_list .first:before{
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 2px;
+	background-color: #fff;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.edina_tm_services_wrap ul.total .inner_list .first:after{
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 0px;
+	background-color: #fff;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.edina_tm_services_wrap ul.total .inner_list .second{
+	bottom: -40px;
+	right: 0px;
+	transform: rotate(180deg);
+}
+.edina_tm_services_wrap ul.total .inner_list .second:before{
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 2px;
+	background-color: #fff;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.edina_tm_services_wrap ul.total .inner_list .second:after{
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 0px;
+	background-color: #fff;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.edina_tm_services_wrap ul.total li:hover .inner_list .first:after{height: 20px;}
+.edina_tm_services_wrap ul.total li:hover .inner_list .first:before{width: 20px;}
+.edina_tm_services_wrap ul.total li:hover .inner_list .second:after{height: 20px;}
+.edina_tm_services_wrap ul.total li:hover .inner_list .second:before{width: 20px;}
+.edina_tm_services_wrap .service_title{margin-bottom: 20px;}
+.edina_tm_services_wrap .service_title h3{
+	font-size: 20px;
+	color: #fff;
+}
+.edina_tm_services_wrap .service_definition p{color: #eee;}
+
+/*---------------------------------------------------*/
+/*	08)	EDINA PORTFOLIO
+/*---------------------------------------------------*/
+
+.edina_tm_portfolio_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 70px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_portfolio_filter{
+	width:100%;
+	height: auto;
+	text-align:center;
+	list-style-type:none;
+	margin: 0px 0px 10px 0px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_portfolio_filter li{
+	display:inline-block;
+	margin:0px 55px 13px 0px;
+}
+.edina_tm_portfolio_filter li:last-child{margin-right: 0px;}
+.edina_tm_portfolio_filter li a{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:700;
+	color:#fff;
+	display: inline-block;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_portfolio_filter li a.current{color: #ed2629;}
+
+/* PORTFOLIO LIST */
+
+.edina_tm_portfolio_list{
+	list-style-type:none;
+	margin: 0px 0px 0px -30px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_portfolio_list > li{
+	width:33.3333%;
+	float:left;
+	position:relative;
+	margin: 0px 0px 30px 0px;
+	padding-left: 30px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_portfolio_list .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_portfolio_list .list_inner .image_wrap{
+	position: relative;
+	top: 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_portfolio_list .list_inner .image_wrap .main_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.edina_tm_portfolio_list > li:nth-child(1) .image_wrap .main_image{background-image: url(..//img/portfolio/1.jpg);}
+.edina_tm_portfolio_list > li:nth-child(2) .image_wrap .main_image{background-image: url(..//img/portfolio/2.jpg);}
+.edina_tm_portfolio_list > li:nth-child(3) .image_wrap .main_image{background-image: url(..//img/portfolio/3.jpg);}
+.edina_tm_portfolio_list > li:nth-child(4) .image_wrap .main_image{background-image: url(..//img/portfolio/4.jpg);}
+.edina_tm_portfolio_list > li:nth-child(5) .image_wrap .main_image{background-image: url(..//img/portfolio/5.jpg);}
+.edina_tm_portfolio_list > li:nth-child(6) .image_wrap .main_image{background-image: url(..//img/portfolio/6.jpg);}
+.edina_tm_portfolio_list .list_inner .definition_portfolio{
+	position: absolute;
+	top: 100%;
+	background-color: #060606;
+	width: 100%;
+	text-align: center;
+	padding: 25px 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+				
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .first{
+	color: #FFFFFF;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	position: relative;
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .first:before{
+	position: absolute;
+	content: "";
+	width: 13px;
+	height: 3px;
+	background-color: #ed2629;
+	bottom: -10px;
+	left: 50%;
+	margin-left: -6.5px;
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .second{
+	display: block;
+	color: #eee;
+	margin-top: 16px;
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .first a{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .first a:hover{color: #ed2629;}
+
+/*---------------------------------------------------*/
+/*	09) EDINA TESTIMONIALS
+/*---------------------------------------------------*/
+
+.edina_tm_testimonial_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/1.jpg);}
+.edina_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.95);}
+.edina_tm_universal_box_wrap .content.testimonial{padding-bottom: 95px;}
+.edina_tm_testimonial_wrap .carousel_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	cursor: e-resize;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_testimonial_wrap .carousel_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_testimonial_wrap .carousel_wrap ul li{margin: 0px;}
+.edina_tm_testimonial_wrap .carousel_wrap ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_testimonial_wrap .carousel_wrap .image_holder{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.edina_tm_testimonial_wrap .carousel_wrap .image_holder img{border-radius: 100%;}
+.edina_tm_testimonial_wrap .carousel_wrap .definition{margin-bottom: 30px;}
+.edina_tm_testimonial_wrap .carousel_wrap .definition p{color: #eee;}
+.edina_tm_testimonial_wrap .carousel_wrap .svg_wrap{margin-bottom: 5px;}
+.edina_tm_testimonial_wrap .carousel_wrap .svg_wrap i{
+	font-size: 25px;
+	color: #ed2629;
+}
+.edina_tm_testimonial_wrap .name_holder_wrap span{
+	display: block;
+	text-transform: uppercase;
+}
+.edina_tm_testimonial_wrap .name_holder_wrap span.name{color: #fff;}
+.edina_tm_testimonial_wrap .name_holder_wrap span.job{
+	color: #eee;
+	font-size: 11px;
+}
+
+/*---------------------------------------------------*/
+/*	10) EDINA NEWS
+/*---------------------------------------------------*/
+
+.edina_tm_news_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #000;
+	margin-bottom: 70px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_news_wrap .link_news{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 22;
+}
+.edina_tm_news_wrap .edina_tm_list_wrap .inner_list{
+	background-color: #060606;
+    border-radius: 3px;
+}
+.edina_tm_news_wrap .definitions_wrap{padding: 40px 30px 47px 30px;}
+.edina_tm_news_wrap .image_wrap{position: relative;}
+.edina_tm_news_wrap .image_wrap .big{display: none;}
+.edina_tm_news_wrap .image_wrap .small{display: block;}
+.edina_tm_news_wrap .news_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.edina_tm_news_wrap .date_wrap{margin-bottom: 16px;}
+.edina_tm_news_wrap .date_wrap p{
+	color: #eee;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.edina_tm_news_wrap .full_def{display: none;}
+.edina_tm_news_wrap .date_wrap p a{
+	color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 23px;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.edina_tm_news_wrap .date_wrap p a:after{
+	position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: #eee;
+    top: 50%;
+    right: 100%;
+    margin-right: 8px;
+}
+.edina_tm_news_wrap .date_wrap p a:hover{color: #fd4d4d;}
+.edina_tm_news_wrap .title_holder{margin-bottom: 18px;}
+.edina_tm_news_wrap .title_holder h3{
+	color: #fff;
+    line-height: 1.4;
+}
+.edina_tm_news_wrap .title_holder h3 a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: block;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.edina_tm_news_wrap .title_holder h3 a:hover{color: #fd4d4d;}
+.edina_tm_news_wrap .definition{margin-bottom: 28px;}
+.edina_tm_news_wrap .definition p{color: #eee;}
+.edina_tm_news_wrap .read_more a{
+	color: #fff;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 35px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-radius: 3px;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.edina_tm_news_wrap .read_more a:hover{background-color: #555;}
+.edina_tm_popup_share_wrap{display: none;}
+#edina_tm_popup_blog{
+	opacity: 0;
+	visibility: hidden;
+	
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background-color: #000;
+	padding: 50px 0px;	
+	z-index: 99999999;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+	
+	-webkit-transition: all .2s ease;
+	   -moz-transition: all .2s ease;
+	    -ms-transition: all .2s ease;
+	     -o-transition: all .2s ease;
+	        transition: all .2s ease;
+}
+#edina_tm_popup_blog.opened{
+	opacity: 1;
+	visibility: visible;
+}
+#edina_tm_popup_blog .definitions_wrap{
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .full_def{
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .full_def p{
+	display: inline-block;
+	color: #eee;
+}
+#edina_tm_popup_blog .definition{display: none;}
+#edina_tm_popup_blog .inner_popup{
+	width: 100%;
+	float: left;
+	clear: both;
+	position: relative;
+}
+#edina_tm_popup_blog .date_wrap p{
+	color: #eee;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+#edina_tm_popup_blog .date_wrap p a{
+	color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 23px;
+}
+#edina_tm_popup_blog .image_wrap{
+	margin-bottom: 45px;
+	position: relative;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .image_wrap .big{
+	display: block;
+	min-height: 250px;
+}
+#edina_tm_popup_blog .image_wrap .small{display: none;}
+#edina_tm_popup_blog .image_wrap .news_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#edina_tm_popup_blog .date_wrap{
+	margin-bottom: 16px;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .date_wrap p a:before{
+	position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: #eee;
+    top: 50%;
+    right: 100%;
+    margin-right: 8px;
+}
+#edina_tm_popup_blog .title_holder{
+	margin-bottom: 18px;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .title_holder h3{
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: "Montserrat";
+	color: #fff;
+}
+#edina_tm_popup_blog .title_holder h3 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: block;
+}
+#edina_tm_popup_blog .definition p{color: #eee;}
+#edina_tm_popup_blog .read_more{display: none;}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap{
+	display: block;
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-bottom: 5px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul li{
+	display: inline-block;
+	margin: 0px 15px 0px 0px;
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: 600;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul li a:hover{color: #fd4d4d;}
+#edina_tm_popup_blog .close{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	display: block;
+	z-index: 111111111;
+}
+#edina_tm_popup_blog .close a{
+	position: relative;
+	display: block;
+	height: 30px;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+#edina_tm_popup_blog .close a:before{
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 20px;
+	background-color: #E91F22;
+	top: 5px;
+	right: 13px;
+	transform: rotate(45deg);
+}
+#edina_tm_popup_blog .close a:after{
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 20px;
+	background-color: #E91F22;
+	top: 5px;
+	right: 13px;
+	transform: rotate(135deg);
+}
+
+
+/*---------------------------------------------------*/
+/*	11) EDINA PARTNERS
+/*---------------------------------------------------*/
+
+.edina_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.jpg);}
+.edina_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.95);}
+.edina_tm_universal_box_wrap .content.partners{padding: 90px 0px;}
+.edina_tm_partners_wrap_total{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+	
+	margin-bottom: 100px;
+}
+.edina_tm_partners_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	cursor: e-resize;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_partners_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.edina_tm_partners_wrap ul li{margin: 0px;}
+
+/*---------------------------------------------------*/
+/*	12) EDINA WORK TOGETHER
+/*---------------------------------------------------*/
+
+.edina_tm_work_together_total{
+	width: 100%;
+	height: auto;
+	clear: both;
+	background-color: #060606;
+	padding: 93px 0px 100px 0px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_work_together_wrap{
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	clear: both;
+	margin: 0px auto;
+	text-align: center;
+}
+.edina_tm_work_together_wrap h3{
+	color: #fff;
+	margin-bottom: 17px;
+}
+.edina_tm_work_together_wrap p{
+	color: #eee;
+	margin-bottom: 29px;
+}
+.edina_tm_work_together_wrap .invite a{
+	color: #fff;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 35px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-radius: 3px;
+	
+   	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_work_together_wrap .invite a:hover{background-color: #555;}
+
+/*---------------------------------------------------*/
+/*	13) EDINA CONTACT
+/*---------------------------------------------------*/
+
+.edina_tm_contact_wrap{
+	max-width: 830px;
+	height: auto;
+	margin: 0px auto;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_main_title_holder.contact{padding-bottom: 65px;}
+.edina_tm_contact_wrap .subtitle{
+	text-align: center;
+	margin-bottom: 69px;
+}
+.edina_tm_contact_wrap .subtitle p{color: #fff;}
+.edina_tm_contact_wrap .main_input_wrap{margin-bottom: 100px;}
+.edina_tm_contact_wrap .main_input_wrap,
+.edina_tm_contact_wrap .main_input_wrap .wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 0px 10px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.edina_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 30px;}
+.edina_tm_contact_wrap .main_input_wrap .wrap input{
+	width: 100%;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	color: #fff;
+}
+.edina_tm_contact_wrap .main_input_wrap .wrap input:focus{
+	outline: none;
+	border-bottom-color: #fff;
+}
+.edina_tm_contact_wrap .main_input_wrap .wrap textarea{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	color: #fff;
+}
+.edina_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
+	outline: none;
+	border-bottom-color: #fff;
+}
+.edina_tm_contact_wrap .edina_tm_button{text-align: center;}
+.edina_tm_contact_wrap .edina_tm_button a{
+	color: #fff;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 35px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-radius: 3px;
+	
+    -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_contact_wrap .edina_tm_button a:hover{background-color: #555;}
+.edina_tm_contact_wrap .empty_notice{
+	color: #FF0004;
+	margin-bottom: 7px;
+	display: none;
+	text-align: center;
+}
+.edina_tm_contact_wrap .contact_error{
+	color: rgba(255,0,4,1.00);
+	text-align: center;
+}
+.edina_tm_contact_wrap .returnmessage{
+	color:#0064FF;
+	margin-bottom: 7px;
+	text-align: center;
+}
+
+/*---------------------------------------------------*/
+/*	14) EDINA FOOTER
+/*---------------------------------------------------*/
+
+.edina_tm_footer_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	background-color: #060606;
+	padding: 50px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_footer_wrap p{color: #fff;}
+.edina_tm_footer_wrap p a{
+	text-decoration: none;
+	color: #fff;
+	font-family: "Montserrat";
+	font-weight: 600;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_footer_wrap p a:hover{color: #ed2629;}
+
+/*---------------------------------------------------*/
+/*	15) EDINA TO TOP
+/*---------------------------------------------------*/
+
+.edina_tm_to_top_wrap{
+	position: fixed;
+	z-index: 333;
+	right: 27px;
+	bottom: 50px;
+	transform: rotate(-270deg);
+	
+	opacity: 0;
+	visibility: hidden;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_to_top_wrap.opened{
+	opacity: 1;
+	visibility: visible;
+	bottom: 90px;
+}
+.edina_tm_to_top_wrap a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	display: block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_to_top_wrap a:hover{color: #ed2629;}
+.edina_tm_to_top_wrap a:hover:before{color: #ed2629;}
+.edina_tm_to_top_wrap a:before{
+	content: '\f104';
+    position: absolute;
+    bottom: -8px;
+    left: -17px;
+    font-family: xcon;
+    font-size: 24px;
+    color: #fff;
+    -webkit-animation: secdownmoving 1000ms linear 0s infinite;
+    -o-animation: secdownmoving 1000ms linear 0s infinite;
+    animation: secdownmoving 1000ms linear 0s infinite;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+
+/*---------------------------------------------------*/
+/*	16) HOMEPAGE 2
+/*---------------------------------------------------*/
+
+.edina_tm_hero_header .hero_title .first{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	line-height: 1;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+.edina_tm_animation_text_word{
+	color: #ed2629;
+	font-size: 25px;
+	font-weight: 500;
+}
+.typed-cursor{color: #000;}
+.edina_tm_about_wrap.homepage_second .rightbox{
+	float: right;
+	padding-right: 0px;
+	padding-left: 65px;
+}
+.edina_tm_about_wrap.homepage_second .leftbox{
+	float: left;
+	right: auto;
+	left: 0px;
+}
+.edina_tm_about_wrap.homepage_second .leftbox{background-image: url(..//img/about/2.jpg);}
+
+/*---------------------------------------------------*/
+/*	16) HOMEPAGE 3
+/*---------------------------------------------------*/
+.edina_tm_universal_box_wrap .hero_title.homepage_third{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.edina_tm_universal_box_wrap .hero_title.homepage_third h3{
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.edina_tm_universal_box_wrap .hero_title.homepage_third span{
+	color: #ed2629;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1;
+}
+.edina_tm_discover_wrap.homepage_third{
+	right: auto;
+	left: 50%;
+	margin-left: -36px;
+}
+
+
+/*---------------------------------------------------*/
+/*	16) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+/*---------------------------------------------------*/
+
+@media (max-width: 1400px) {
+	.edina_tm_to_top_wrap{position: relative;float: right;bottom: 61px;}
+	.edina_tm_to_top_wrap.opened{bottom: 61px;}
+}
+@media (max-width: 1200px) {
+	.edina_tm_about_wrap .rightbox{padding: 0px 70px 0px 0px;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 25%;}
+}
+@media (max-width: 1040px) {
+	.edina_tm_trigger{display: block;}
+	.edina_tm_navigation_wrap .nav_list_wrap{display: none;}
+	.edina_tm_navigation_wrap .logo{position: relative;top:-1px;}
+	.edina_tm_navigation_wrap{padding: 30px 0px;background-color: rgba(0,0,0,.95);}
+	.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 33.3333%;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 33.3333%;}
+	.edina_tm_about_wrap .rightbox{padding: 0px 50px 0px 0px;}
+	.edina_tm_hero_header .hero_title .first{font-size: 42px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 42px;}
+	.edina_tm_animation_text_word{font-size: 18px;}
+	#edina_tm_popup_blog .close{right: 0px;}
+}
+@media (max-width: 768px) {
+	.edina_tm_navigation_wrap{padding: 25px 0px;}
+	.edina_tm_about_wrap .leftbox{display: none;}
+	.edina_tm_about_wrap .rightbox{width: 100%;padding: 0px;}
+	.edina_tm_about_wrap .rightbox .name_holder{text-align: center;}
+	.edina_tm_about_wrap .definition{text-align: center;}
+	.edina_tm_about_wrap .sharebox{text-align: center;}
+	.edina_tm_list_wrap[data-column="3"] ul.total > li{width: 50%;}
+	.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 50%;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 50%;}
+	.edina_tm_portfolio_filter li{margin: 0px 15px 0px 0px;}
+	.edina_tm_portfolio_list > li{width: 50%;}
+	.edina_tm_contact_wrap .short_contact ul li{width: 100%;margin-bottom: 20px;}
+	.edina_tm_main_title_holder_wrap .number_wrap{width: 130px;height: 70px;line-height: 70px;}
+	.edina_tm_main_title_holder_wrap .number_wrap span{font-size: 36px;}
+	.edina_tm_main_title_holder_wrap .title_wrap span{font-size: 36px;}
+	.edina_tm_main_title_holder_wrap{padding-bottom: 75px;}
+	.edina_tm_universal_box_wrap .content.partners{padding: 60px 0px;}
+	.edina_tm_hero_header .hero_title .first{font-size: 33px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 33px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 15px;}
+	.edina_tm_animation_text_word{font-size: 17px;}
+	.edina_tm_main_demos_list_wrap ul li{width: 50%;}
+	.edina_tm_about_wrap.homepage_second .rightbox{padding-left: 0px;}
+}
+@media (max-width: 480px) {
+	.edina_tm_navigation_wrap{padding: 20px 0px;}
+	.edina_tm_top_bar_wrap ul li{margin: 0px;}
+	.edina_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
+	.edina_tm_list_wrap[data-column="3"] ul.total > li{width: 100%;}
+	.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 100%;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 100%;}
+	.edina_tm_portfolio_list{margin-left: 0px;}
+	.edina_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
+	.edina_tm_to_top_wrap{right: 0px;}
+	.edina_tm_discover_wrap{right: 12px;}
+	.edina_tm_news_wrap .date_wrap p{font-size: 13px;}
+	.edina_tm_news_wrap .date_wrap p a{font-size: 13px;}
+	.edina_tm_news_wrap .title_holder h3 a{font-size: 20px;}
+	.edina_tm_main_title_holder_wrap .number_wrap{width: 115px;height: 60px;line-height: 60px;}
+	.edina_tm_main_title_holder_wrap .number_wrap span{font-size: 32px;}
+	.edina_tm_main_title_holder_wrap .title_wrap span{font-size: 32px;}
+	.edina_tm_main_title_holder_wrap{padding-bottom: 65px;}
+	.edina_tm_universal_box_wrap .content.partners{padding: 50px 0px;}
+	.edina_tm_hero_header .hero_title .first{font-size: 23px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 20px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 12px;}
+	.edina_tm_animation_text_word{font-size: 15px;}
+	.edina_tm_main_demos_list_wrap ul{margin-left: 0px;}
+	.edina_tm_main_demos_list_wrap ul li{width: 100%;padding: 0px;}
+	.container{padding: 0px 20px !important;}
+}	
