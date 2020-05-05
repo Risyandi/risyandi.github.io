@@ -273,6 +273,7 @@ input[type="button"]{
        url('font/xcon.svg?4965248#xcon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
@@ -281,6 +282,7 @@ input[type="button"]{
   @font-face {
     font-family: 'xcon';
     src: url('../font/xcon.svg?4965248#xcon') format('svg');
+    font-display: swap;
   }
 }
 */
@@ -2251,6 +2253,7 @@ input[type="button"]{
 @font-face {
   font-family: 'ytpregular';
   src: url('ytp-regular.eot');
+  font-display: swap;
 }
 
 @font-face {
@@ -2259,7 +2262,7 @@ input[type="button"]{
   url('ytp-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-
+  font-display: swap;
 }
 .mb_YTPlayer :focus {
   outline: 0;
