@@ -433,7 +433,7 @@ img.svg{
 	z-index: 20;
 }
 .edina_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.9);}
-.edina_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/1.jpg);}
+.edina_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/1.webp);}
 .edina_tm_universal_box_wrap .content{
 	width: 100%;
 	height: auto;
@@ -598,7 +598,7 @@ img.svg{
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
-	background-image: url(..//img/about/1.jpg);
+	background-image: url(..//img/about/1.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -930,12 +930,12 @@ img.svg{
 	background-size: cover;
 	background-position: center;
 }
-.edina_tm_portfolio_list > li:nth-child(1) .image_wrap .main_image{background-image: url(..//img/portfolio/1.jpg);}
-.edina_tm_portfolio_list > li:nth-child(2) .image_wrap .main_image{background-image: url(..//img/portfolio/2.jpg);}
-.edina_tm_portfolio_list > li:nth-child(3) .image_wrap .main_image{background-image: url(..//img/portfolio/3.jpg);}
-.edina_tm_portfolio_list > li:nth-child(4) .image_wrap .main_image{background-image: url(..//img/portfolio/4.jpg);}
-.edina_tm_portfolio_list > li:nth-child(5) .image_wrap .main_image{background-image: url(..//img/portfolio/5.jpg);}
-.edina_tm_portfolio_list > li:nth-child(6) .image_wrap .main_image{background-image: url(..//img/portfolio/6.jpg);}
+.edina_tm_portfolio_list > li:nth-child(1) .image_wrap .main_image{background-image: url(..//img/portfolio/1.webp);}
+.edina_tm_portfolio_list > li:nth-child(2) .image_wrap .main_image{background-image: url(..//img/portfolio/2.webp);}
+.edina_tm_portfolio_list > li:nth-child(3) .image_wrap .main_image{background-image: url(..//img/portfolio/3.webp);}
+.edina_tm_portfolio_list > li:nth-child(4) .image_wrap .main_image{background-image: url(..//img/portfolio/4.webp);}
+.edina_tm_portfolio_list > li:nth-child(5) .image_wrap .main_image{background-image: url(..//img/portfolio/5.webp);}
+.edina_tm_portfolio_list > li:nth-child(6) .image_wrap .main_image{background-image: url(..//img/portfolio/6.webp);}
 .edina_tm_portfolio_list .list_inner .definition_portfolio{
 	position: absolute;
 	top: 100%;
@@ -1003,7 +1003,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.edina_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/1.jpg);}
+.edina_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/1.webp);}
 .edina_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.95);}
 .edina_tm_universal_box_wrap .content.testimonial{padding-bottom: 95px;}
 .edina_tm_testimonial_wrap .carousel_wrap{
@@ -1360,7 +1360,7 @@ img.svg{
 /*	11) EDINA PARTNERS
 /*---------------------------------------------------*/
 
-.edina_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.jpg);}
+.edina_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.webp);}
 .edina_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.95);}
 .edina_tm_universal_box_wrap .content.partners{padding: 90px 0px;}
 .edina_tm_partners_wrap_total{
@@ -1655,7 +1655,7 @@ img.svg{
 	right: auto;
 	left: 0px;
 }
-.edina_tm_about_wrap.homepage_second .leftbox{background-image: url(..//img/about/2.jpg);}
+.edina_tm_about_wrap.homepage_second .leftbox{background-image: url(..//img/about/2.webp);}
 
 /*---------------------------------------------------*/
 /*	16) HOMEPAGE 3
