@@ -433,7 +433,7 @@ img.svg{
 	z-index: 20;
 }
 .edina_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.9);}
-.edina_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/1.webp);}
+.edina_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/1.webp); alt: "hero images";}
 .edina_tm_universal_box_wrap .content{
 	width: 100%;
 	height: auto;
@@ -1360,7 +1360,7 @@ img.svg{
 /*	11) EDINA PARTNERS
 /*---------------------------------------------------*/
 
-.edina_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.webp);}
+.edina_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.webp); alt: "parallax images";}
 .edina_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.95);}
 .edina_tm_universal_box_wrap .content.partners{padding: 90px 0px;}
 .edina_tm_partners_wrap_total{

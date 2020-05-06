@@ -49,10 +49,10 @@
 		gtag('config', 'UA-130117056-1');
 	</script>
 	<!-- styles -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/plugins.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet preconnect" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet preconnect" crossorigin>
+	<link rel="preload stylesheet" as="style" type="text/css" href="css/plugins.css" />
+	<link rel="preload stylesheet" as="style" type="text/css" href="css/style.css" />
 </head>
 
 <body>
@@ -833,16 +833,25 @@
 								data-success="Your message has been received, We will contact you soon."></div>
 							<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 							<div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
-								<input id="name" type="text" class="form-control" id='full-name' name="name"
-									placeholder="Enter your full name here">
+								<label for="name">
+									Name
+									<input id="name" type="text" class="form-control" id='full-name' name="name"
+										placeholder="Enter your full name here">
+								</label>
 							</div>
 							<div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
-								<input id="email" type="text" class="form-control" id='email' name="_replyto"
+								<label for="email">
+									email
+									<input id="email" type="text" class="form-control" id='email' name="_replyto"
 									placeholder="Enter your email here">
+								</label>
 							</div>
 							<div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s">
-								<textarea class="form-control" name="message"
+								<label for="message">
+									message
+									<textarea class="form-control" name="message"
 									placeholder="Enter your message here"></textarea>
+								</label>
 							</div>
 							<input type="submit" id="send-message-yes" class="submit-button" value="Send"
 								style="display: none;">
