@@ -1208,6 +1208,9 @@ img.svg {
 	/* Firefox, other Gecko */
 	box-sizing: border-box;
 	/* Opera/IE 8+ */
+
+	overflow: auto;
+	display: inline-flex;
 }
 
 .edina_tm_portfolio_filter li {
@@ -1233,6 +1236,8 @@ img.svg {
 	-ms-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
+
+	width: max-content;
 }
 
 .edina_tm_portfolio_filter li a.current {
