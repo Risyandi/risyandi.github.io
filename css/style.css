@@ -1516,6 +1516,13 @@ img.svg {
 /*	10) EDINA NEWS
 /*---------------------------------------------------*/
 
+@media (min-width: 426px) {
+	.news_carousel {
+		padding-left: 30px;
+		margin-bottom: 30px;
+	}
+}
+
 .edina_tm_news_wrap {
 	width: 100%;
 	height: auto;
