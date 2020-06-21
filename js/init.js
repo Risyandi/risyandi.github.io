@@ -28,6 +28,7 @@ jQuery(document).ready(function () {
 	edina_tm_text_animation();
 	edina_tm_animate_text();
 	edina_tm_popupscroll();
+	edina_carousel_news();
 	// edina_tm_popup_blog();
 	clickSend();
 
@@ -581,4 +582,33 @@ function clickSend() {
 	$('.send-message').on('click', function () {
 		$('#send-message-yes').trigger("click");
 	});
-};
+}
+
+// owl carousel
+function edina_carousel_news() {
+	$(".owl-carousel-news").owlCarousel({
+		loop: true,
+		center: false,
+		margin: 0,
+		responsiveClass: true,
+		nav: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		responsive: {
+			0: {
+				items: 1,
+				nav: false
+			},
+			600: {
+				items: 2,
+				nav: false
+			},
+			1000: {
+				items: 3,
+				nav: true,
+				loop: true
+			}
+		}
+	});
+}
