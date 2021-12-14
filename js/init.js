@@ -12,7 +12,7 @@ jQuery(document).ready(function () {
 
 
 	// here all ready functions
-
+	edina_getyear_footer()
 	edina_tm_hamburger();
 	edina_tm_imgtosvg();
 	edina_tm_magnific_popup();
@@ -44,6 +44,15 @@ jQuery(document).ready(function () {
 // -----------------------------------------------------
 // --------------------  FUNCTIONS  --------------------
 // -----------------------------------------------------
+
+// -----------------------------------------------------
+// ---------------    GET YEAR FOOTER   ----------------
+// -----------------------------------------------------
+function edina_getyear_footer() {
+	"use strict";
+	var date = new Date();
+	jQuery('.year-footer').text(date.getFullYear());
+}
 
 // -----------------------------------------------------
 // ---------------    IMAGE TO SVG    ------------------
@@ -496,7 +505,7 @@ function edina_tm_animate_text() {
 	var animateSpan = jQuery('.edina_tm_animation_text_word');
 
 	animateSpan.typed({
-		strings: ["GRAPHIC DESIGNER", "PHOTOGRAPHER", "SOFTWARE DEVELOPMENT ENGINEER", "CYCLIST"],
+		strings: ["GRAPHIC DESIGNER", "PHOTOGRAPHER", "SOFTWARE ENGINEER", "THE HAPPY CYCLIST"],
 		loop: true,
 		startDelay: 1e3,
 		backDelay: 2e3
