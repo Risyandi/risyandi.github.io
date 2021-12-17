@@ -1350,6 +1350,10 @@ img.svg {
 	background-image: url(..//img/portfolio/8.webp);
 }
 
+.edina_tm_portfolio_list>li:nth-child(9) .image_wrap .main_image {
+	background-image: url(..//img/portfolio/9.webp);
+}
+
 .edina_tm_portfolio_list .list_inner .definition_portfolio {
 	position: absolute;
 	top: 100%;
