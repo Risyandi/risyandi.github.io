@@ -40,7 +40,7 @@ body {
 	letter-spacing: 0.5px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: #000000;
+	background-color: #16543f;
 }
 
 svg {
@@ -77,34 +77,34 @@ img.svg {
 
 ::-webkit-input-placeholder {
 	/* WebKit, Blink, Edge */
-	color: #fff;
+	color: #eee6d8;
 }
 
 :-moz-placeholder {
 	/* Mozilla Firefox 4 to 18 */
-	color: #fff;
+	color: #eee6d8;
 	opacity: 1;
 }
 
 ::-moz-placeholder {
 	/* Mozilla Firefox 19+ */
-	color: #fff;
+	color: #eee6d8;
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
 	/* Internet Explorer 10-11 */
-	color: #fff;
+	color: #eee6d8;
 }
 
 ::-ms-input-placeholder {
 	/* Microsoft Edge */
-	color: #fff;
+	color: #eee6d8;
 }
 
 ::placeholder {
 	/* Most modern browsers support this now. */
-	color: #fff;
+	color: #eee6d8;
 }
 
 /*---------------------------------------------------*/
@@ -135,7 +135,7 @@ img.svg {
 }
 
 .edina_tm_header.scroll {
-	background-color: rgba(0, 0, 0, .9);
+	background-color: #16543f;
 
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
 	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
@@ -143,19 +143,19 @@ img.svg {
 }
 
 .edina_tm_header.scroll .edina_tm_navigation_wrap .menu>ul>li a {
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_header.scroll .edina_tm_navigation_wrap .social_icons_wrap>ul>li a {
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_header.scroll .edina_tm_navigation_wrap .menu>ul>li a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_header.scroll .edina_tm_navigation_wrap .social_icons_wrap>ul>li a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_navigation_wrap,
@@ -227,7 +227,7 @@ img.svg {
 
 .edina_tm_navigation_wrap .menu>ul>li a {
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	font-family: "Montserrat";
 	font-size: 16px;
 	font-weight: 600;
@@ -241,7 +241,7 @@ img.svg {
 }
 
 .edina_tm_navigation_wrap .menu>ul>li a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_navigation_wrap .social_icons_wrap {
@@ -266,7 +266,7 @@ img.svg {
 
 .edina_tm_navigation_wrap .social_icons_wrap>ul>li a {
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	font-size: 16px;
 	display: inline-block;
 
@@ -278,7 +278,7 @@ img.svg {
 }
 
 .edina_tm_navigation_wrap .social_icons_wrap>ul>li a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 /*---------------------------------------------------*/
@@ -290,7 +290,7 @@ img.svg {
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: rgba(0, 0, 0, .95);
+	background-color: #16543f;
 	padding: 50px 20px;
 	display: none;
 	border-bottom: 1px solid rgba(255, 255, 255, .09);
@@ -333,7 +333,7 @@ img.svg {
 
 .edina_tm_mobile_menu_wrap .mob_menu>ul>li a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #eee6d8;
 	font-family: "Montserrat";
 	font-weight: 600;
 	font-size: 20px;
@@ -458,7 +458,7 @@ img.svg {
 .edina_tm_trigger .hamburger .hamburger-inner::before,
 .edina_tm_trigger .hamburger .hamburger-inner::after,
 .edina_tm_trigger .hamburger .hamburger-inner {
-	background-color: #fff;
+	background-color: #eee6d8;
 	width: 30px;
 
 	-webkit-transition: all .3s ease;
@@ -604,7 +604,7 @@ img.svg {
 .edina_tm_discover_wrap a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	position: relative;
 	display: block;
 
@@ -616,11 +616,11 @@ img.svg {
 }
 
 .edina_tm_discover_wrap a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_discover_wrap a:hover:before {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_discover_wrap a:before {
@@ -630,7 +630,7 @@ img.svg {
 	left: -17px;
 	font-family: xcon;
 	font-size: 24px;
-	color: #fff;
+	color: #eee6d8;
 	-webkit-animation: secdownmoving 1000ms linear 0s infinite;
 	-o-animation: secdownmoving 1000ms linear 0s infinite;
 	animation: secdownmoving 1000ms linear 0s infinite;
@@ -728,7 +728,7 @@ img.svg {
 	height: 80px;
 	line-height: 80px;
 	display: inline-block;
-	background-color: #ed2629;
+	background-color: #e96824;
 }
 
 .edina_tm_main_title_holder_wrap .number_wrap {
@@ -736,7 +736,7 @@ img.svg {
 }
 
 .edina_tm_main_title_holder_wrap .number_wrap span {
-	color: #FFF;
+	color: #eee6d8;
 	font-size: 40px;
 	font-weight: 800;
 	display: inline-block;
@@ -744,7 +744,7 @@ img.svg {
 }
 
 .edina_tm_main_title_holder_wrap .title_wrap span {
-	color: #fff;
+	color: #eee6d8;
 	font-size: 40px;
 	font-weight: 800;
 	display: inline-block;
@@ -798,7 +798,7 @@ img.svg {
 }
 
 .edina_tm_about_wrap .rightbox .name_holder h3 {
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_about_wrap .rightbox .definition p {
@@ -817,14 +817,14 @@ img.svg {
 }
 
 .edina_tm_about_wrap .rightbox .sharebox ul li span {
-	color: #fff;
+	color: #eee6d8;
 	padding-right: 12px;
 	font-size: 16px;
 }
 
 .edina_tm_about_wrap .rightbox .sharebox ul li a {
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	font-size: 16px;
 
 	-webkit-transition: all .3s ease;
@@ -835,7 +835,7 @@ img.svg {
 }
 
 .edina_tm_about_wrap .rightbox .sharebox ul li a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 /*---------------------------------------------------*/
@@ -848,7 +848,7 @@ img.svg {
 	clear: both;
 	float: left;
 	text-align: center;
-	background-color: #060606;
+	background-color: #16543f;
 
 	-webkit-box-sizing: border-box;
 	/* Safari/Chrome, other WebKit */
@@ -1073,7 +1073,7 @@ img.svg {
 .edina_tm_services_wrap .service_icon .svg {
 	width: 40px;
 	height: 40px;
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_services_wrap ul.total .inner_list span {
@@ -1090,7 +1090,7 @@ img.svg {
 	content: "";
 	width: 0px;
 	height: 2px;
-	background-color: #fff;
+	background-color: #eee6d8;
 
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -1104,7 +1104,7 @@ img.svg {
 	content: "";
 	width: 2px;
 	height: 0px;
-	background-color: #fff;
+	background-color: #eee6d8;
 
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -1124,7 +1124,7 @@ img.svg {
 	content: "";
 	width: 0px;
 	height: 2px;
-	background-color: #fff;
+	background-color: #eee6d8;
 
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -1138,7 +1138,7 @@ img.svg {
 	content: "";
 	width: 2px;
 	height: 0px;
-	background-color: #fff;
+	background-color: #eee6d8;
 
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -1169,7 +1169,7 @@ img.svg {
 
 .edina_tm_services_wrap .service_title h3 {
 	font-size: 20px;
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_services_wrap .service_definition p {
@@ -1226,7 +1226,7 @@ img.svg {
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 700;
-	color: #fff;
+	color: #eee6d8;
 	display: inline-block;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -1241,7 +1241,7 @@ img.svg {
 }
 
 .edina_tm_portfolio_filter li a.current {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 /* PORTFOLIO LIST */
@@ -1357,7 +1357,7 @@ img.svg {
 .edina_tm_portfolio_list .list_inner .definition_portfolio {
 	position: absolute;
 	top: 100%;
-	background-color: #060606;
+	background-color: #eee6d8;
 	width: 100%;
 	text-align: center;
 	padding: 25px 0px;
@@ -1377,7 +1377,7 @@ img.svg {
 }
 
 .edina_tm_portfolio_list .list_inner .definition_portfolio .first {
-	color: #FFFFFF;
+	color: #16543f ;
 	display: block;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -1390,7 +1390,7 @@ img.svg {
 	content: "";
 	width: 13px;
 	height: 3px;
-	background-color: #ed2629;
+	background-color: #e96824;
 	bottom: -10px;
 	left: 50%;
 	margin-left: -6.5px;
@@ -1398,13 +1398,13 @@ img.svg {
 
 .edina_tm_portfolio_list .list_inner .definition_portfolio .second {
 	display: block;
-	color: #eee;
+	color: #16543f;
 	margin-top: 16px;
 }
 
 .edina_tm_portfolio_list .list_inner .definition_portfolio .first a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #e96824 ;
 
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -1414,7 +1414,7 @@ img.svg {
 }
 
 .edina_tm_portfolio_list .list_inner .definition_portfolio .first a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 /*---------------------------------------------------*/
@@ -1512,7 +1512,7 @@ img.svg {
 
 .edina_tm_testimonial_wrap .carousel_wrap .svg_wrap i {
 	font-size: 25px;
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_testimonial_wrap .name_holder_wrap span {
@@ -1521,7 +1521,7 @@ img.svg {
 }
 
 .edina_tm_testimonial_wrap .name_holder_wrap span.name {
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_testimonial_wrap .name_holder_wrap span.job {
@@ -1545,7 +1545,7 @@ img.svg {
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #000;
+	background-color: #16543f;
 	margin-bottom: 70px;
 
 	-webkit-box-sizing: border-box;
@@ -1566,7 +1566,7 @@ img.svg {
 }
 
 .edina_tm_news_wrap .edina_tm_list_wrap .inner_list {
-	background-color: #060606;
+	background-color: #eee6d8;
 	border-radius: 3px;
 }
 
@@ -1602,7 +1602,7 @@ img.svg {
 }
 
 .edina_tm_news_wrap .date_wrap p {
-	color: #eee;
+	color: #16543f;
 	font-family: "Montserrat";
 	font-weight: 500;
 }
@@ -1612,7 +1612,7 @@ img.svg {
 }
 
 .edina_tm_news_wrap .date_wrap p a {
-	color: #eee;
+	color: #16543f;
 	text-decoration: none;
 	text-transform: uppercase;
 	position: relative;
@@ -1645,13 +1645,13 @@ img.svg {
 }
 
 .edina_tm_news_wrap .title_holder h3 {
-	color: #fff;
+	color: #e96824;
 	line-height: 1.4;
 }
 
 .edina_tm_news_wrap .title_holder h3 a {
 	text-decoration: none;
-	color: #fff;
+	color: #e96824;
 	font-size: 22px;
 	display: block;
 
@@ -1671,13 +1671,13 @@ img.svg {
 }
 
 .edina_tm_news_wrap .definition p {
-	color: #eee;
+	color: #16543f;
 }
 
 .edina_tm_news_wrap .read_more a {
-	color: #fff;
+	color: #eee6d8;
 	text-decoration: none;
-	background-color: #ed2629;
+	background-color: #e96824 ;
 	padding: 8px 35px;
 	display: inline-block;
 	font-family: "Montserrat";
@@ -1825,12 +1825,12 @@ img.svg {
 	line-height: 1.4;
 	font-weight: 600;
 	font-family: "Montserrat";
-	color: #fff;
+	color: #eee6d8;
 }
 
 #edina_tm_popup_blog .title_holder h3 a {
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	font-size: 22px;
 	display: block;
 }
@@ -1871,7 +1871,7 @@ img.svg {
 
 #edina_tm_popup_blog .edina_tm_popup_share_wrap ul li a {
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	font-size: 15px;
 	position: relative;
 	font-family: "Montserrat";
@@ -1940,7 +1940,7 @@ img.svg {
 }
 
 .edina_tm_universal_box_wrap .overlay_color.partners {
-	background-color: rgba(0, 0, 0, .95);
+	background-color: #16543fb8;
 }
 
 .edina_tm_universal_box_wrap .content.partners {
@@ -1996,7 +1996,7 @@ img.svg {
 	width: 100%;
 	height: auto;
 	clear: both;
-	background-color: #060606;
+	background-color: #16543f;
 	padding: 93px 0px 100px 0px;
 
 	-webkit-box-sizing: border-box;
@@ -2017,7 +2017,7 @@ img.svg {
 }
 
 .edina_tm_work_together_wrap h3 {
-	color: #fff;
+	color: #eee6d8;
 	margin-bottom: 17px;
 }
 
@@ -2027,9 +2027,9 @@ img.svg {
 }
 
 .edina_tm_work_together_wrap .invite a {
-	color: #fff;
+	color: #eee6d8;
 	text-decoration: none;
-	background-color: #ed2629;
+	background-color: #e96824 ;
 	padding: 8px 35px;
 	display: inline-block;
 	font-family: "Montserrat";
@@ -2074,7 +2074,7 @@ img.svg {
 }
 
 .edina_tm_contact_wrap .subtitle p {
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_contact_wrap .main_input_wrap {
@@ -2107,12 +2107,12 @@ img.svg {
 	background-color: transparent;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, .2);
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_contact_wrap .main_input_wrap .wrap input:focus {
 	outline: none;
-	border-bottom-color: #fff;
+	border-bottom-color: #eee6d8;
 }
 
 .edina_tm_contact_wrap .main_input_wrap .wrap textarea {
@@ -2122,12 +2122,12 @@ img.svg {
 	background-color: transparent;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, .2);
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_contact_wrap .main_input_wrap .wrap textarea:focus {
 	outline: none;
-	border-bottom-color: #fff;
+	border-bottom-color: #eee6d8;
 }
 
 .edina_tm_contact_wrap .edina_tm_button {
@@ -2135,9 +2135,9 @@ img.svg {
 }
 
 .edina_tm_contact_wrap .edina_tm_button a {
-	color: #fff;
+	color: #eee6d8;
 	text-decoration: none;
-	background-color: #ed2629;
+	background-color: #e96824 ;
 	padding: 8px 35px;
 	display: inline-block;
 	font-family: "Montserrat";
@@ -2183,7 +2183,7 @@ img.svg {
 	clear: both;
 	float: left;
 	text-align: center;
-	background-color: #060606;
+	background-color: #16543f;
 	padding: 50px;
 
 	-webkit-box-sizing: border-box;
@@ -2195,12 +2195,12 @@ img.svg {
 }
 
 .edina_tm_footer_wrap p {
-	color: #fff;
+	color: #eee6d8;
 }
 
 .edina_tm_footer_wrap p a {
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	font-family: "Montserrat";
 	font-weight: 600;
 
@@ -2212,7 +2212,7 @@ img.svg {
 }
 
 .edina_tm_footer_wrap p a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 /*---------------------------------------------------*/
@@ -2245,7 +2245,7 @@ img.svg {
 .edina_tm_to_top_wrap a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #fff;
+	color: #eee6d8;
 	position: relative;
 	display: block;
 
@@ -2257,11 +2257,11 @@ img.svg {
 }
 
 .edina_tm_to_top_wrap a:hover {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_to_top_wrap a:hover:before {
-	color: #ed2629;
+	color: #e96824 ;
 }
 
 .edina_tm_to_top_wrap a:before {
@@ -2271,7 +2271,7 @@ img.svg {
 	left: -17px;
 	font-family: xcon;
 	font-size: 24px;
-	color: #fff;
+	color: #eee6d8;
 	-webkit-animation: secdownmoving 1000ms linear 0s infinite;
 	-o-animation: secdownmoving 1000ms linear 0s infinite;
 	animation: secdownmoving 1000ms linear 0s infinite;
@@ -2288,7 +2288,7 @@ img.svg {
 /*---------------------------------------------------*/
 
 .edina_tm_hero_header .hero_title .first {
-	color: #fff;
+	color: #eee6d8;
 	font-family: "Montserrat";
 	font-size: 50px;
 	font-weight: 500;
@@ -2299,7 +2299,7 @@ img.svg {
 }
 
 .edina_tm_animation_text_word {
-	color: #ed2629;
+	color: #e96824 ;
 	font-size: 25px;
 	font-weight: 500;
 }
@@ -2335,13 +2335,13 @@ img.svg {
 }
 
 .edina_tm_universal_box_wrap .hero_title.homepage_third h3 {
-	color: #fff;
+	color: #eee6d8;
 	font-size: 50px;
 	margin-bottom: 10px;
 }
 
 .edina_tm_universal_box_wrap .hero_title.homepage_third span {
-	color: #ed2629;
+	color: #e96824 ;
 	font-size: 20px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -2397,7 +2397,7 @@ img.svg {
 
 	.edina_tm_navigation_wrap {
 		padding: 30px 0px;
-		background-color: rgba(0, 0, 0, .95);
+		background-color: #16543f;
 	}
 
 	.edina_tm_list_wrap[data-column="4"] ul.total>li {
