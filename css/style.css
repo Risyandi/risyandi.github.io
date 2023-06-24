@@ -2291,17 +2291,20 @@ img.svg {
 	color: #fff;
 	font-family: "Montserrat";
 	font-size: 50px;
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 30px;
 	line-height: 1;
 	letter-spacing: -1px;
-	text-transform: uppercase;
 }
 
 .edina_tm_animation_text_word {
-	color: #ed2629;
+	color: white;
 	font-size: 25px;
-	font-weight: 500;
+	font-weight: 600;
+	font-family: "Montserrat";
+	background-color: red;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .typed-cursor {

@@ -505,6 +505,7 @@ function edina_tm_animate_text() {
 	animateSpan.typed({
 		strings: ["SOFTWARE ENGINEER", "THE HAPPY CYCLIST", "PHOTOGRAPHER", 'A DIGITAL NOMADS'],
 		loop: true,
+		showCursor: false,
 		startDelay: 1e3,
 		backDelay: 2e3
 	});
