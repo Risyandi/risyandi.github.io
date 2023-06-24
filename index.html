@@ -700,7 +700,7 @@
 						</div>
 					</div>
 					<div class="main_input_wrap">
-						<form action="https://mailthis.to/hello@risyandi.com" method="POST" encType="multipart/form-data">
+						<form action="https://formsubmit.co/hello@risyandi.com" method="POST" encType="multipart/form-data">
 							<div class="returnmessage"
 								data-success="Your message has been received, We will contact you soon."></div>
 							<div class="empty_notice"><span>Please Fill Required Fields</span></div>
@@ -714,7 +714,7 @@
 							<div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
 								<label for="email">
 									email
-									<input id="email" type="email" class="form-control" id='email' name="_replyto"
+									<input id="email" type="email" class="form-control" name="email"
 										required placeholder="Enter your email here">
 								</label>
 							</div>
@@ -725,6 +725,14 @@
 										required></textarea>
 								</label>
 							</div>
+							<!-- formsubmit hidden -->
+							<input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase, gambling, investment">
+							<input type="hidden" name="_captcha" value="true">
+							<input type="text" name="_honey" style="display:none">
+							<input type="hidden" name="_autoresponse" value="Thank you for reach me out on this form contact and submitted your message. -- risyandi.com">
+							<input type="hidden" name="_template" value="basic">
+							<input type="hidden" name="_next" value="https://risyandi.com/">
+
 							<input type="submit" id="send-message-yes" class="submit-button" value="Send"
 								style="display: none;">
 							<div class="edina_tm_button wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s">
