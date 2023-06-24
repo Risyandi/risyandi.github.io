@@ -1,7 +1,5 @@
 /*
- * Copyright (c) 2017 Marketify
- * Author: Marketify
- * This file is made for CURRENT TEMPLATE
+ * Copyright (c) 2017 
  */
 
 
@@ -505,7 +503,7 @@ function edina_tm_animate_text() {
 	var animateSpan = jQuery('.edina_tm_animation_text_word');
 
 	animateSpan.typed({
-		strings: ["GRAPHIC DESIGNER", "PHOTOGRAPHER", "SOFTWARE ENGINEER", "THE HAPPY CYCLIST"],
+		strings: ["SOFTWARE ENGINEER", "THE HAPPY CYCLIST", "PHOTOGRAPHER", 'A DIGITAL NOMADS'],
 		loop: true,
 		startDelay: 1e3,
 		backDelay: 2e3
