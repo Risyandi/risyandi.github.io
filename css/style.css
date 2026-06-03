@@ -2635,3 +2635,69 @@ img.svg {
 		padding: 0px 20px !important;
 	}
 }
+
+/*---------------------------------------------------*/
+/*	17) INTERNATIONALIZATION SWITCHERS (EN / ID)
+/*---------------------------------------------------*/
+
+.lang_toggle {
+	margin-left: 20px;
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+	padding-left: 15px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.lang_li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.lang_btn {
+	color: rgba(255, 255, 255, 0.5) !important;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	line-height: 1;
+	letter-spacing: 0.5px;
+}
+
+.lang_btn.active {
+	color: #ed2629 !important; /* Theme accent red */
+}
+
+.lang_btn:hover {
+	color: #fff !important;
+}
+
+.lang_sep {
+	color: rgba(255, 255, 255, 0.2);
+	margin: 0 6px;
+	font-size: 13px;
+	font-weight: 500;
+	user-select: none;
+}
+
+/* Mobile Language Switcher */
+.mobile_lang_toggle {
+	margin-top: 25px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.mobile_lang_toggle .lang_btn {
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+.mobile_lang_toggle .lang_sep {
+	font-size: 16px;
+	margin: 0 10px;
+}

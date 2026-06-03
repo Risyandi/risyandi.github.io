@@ -51,6 +51,7 @@ function edina_getyear_footer() {
 	var date = new Date();
 	jQuery('.year-footer').text(date.getFullYear());
 }
+window.edina_getyear_footer = edina_getyear_footer;
 
 // -----------------------------------------------------
 // ---------------    IMAGE TO SVG    ------------------
@@ -501,15 +502,32 @@ function edina_tm_animate_text() {
 	"use strict";
 
 	var animateSpan = jQuery('.edina_tm_animation_text_word');
+	if (!animateSpan.length) {
+		return;
+	}
+
+	// Clear any existing typed instance by replacing the span element
+	if (animateSpan.data('typed')) {
+		var newSpan = animateSpan.clone().empty();
+		animateSpan.replaceWith(newSpan);
+		animateSpan = newSpan;
+	}
+
+	var currentLang = localStorage.getItem('risyandi_lang') || 'en';
+	var strings = ["SOFTWARE ENGINEER", "THE HAPPY CYCLIST", "PHOTOGRAPHER", "A DIGITAL NOMAD"];
+	if (currentLang === 'id') {
+		strings = ["ENGINEER PERANGKAT LUNAK", "PESEPEDA BAHAGIA", "FOTOGRAFER", "NOMADEN DIGITAL"];
+	}
 
 	animateSpan.typed({
-		strings: ["SOFTWARE ENGINEER", "THE HAPPY CYCLIST", "PHOTOGRAPHER", 'A DIGITAL NOMADS'],
+		strings: strings,
 		loop: true,
 		showCursor: false,
-		startDelay: 1e3,
+		startDelay: 500,
 		backDelay: 2e3
 	});
 }
+window.edina_tm_animate_text = edina_tm_animate_text;
 
 // -----------------------------------------------------
 // -------------------    POPUP BLOG    ----------------
