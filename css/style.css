@@ -556,7 +556,6 @@ img.svg {
 
 .edina_tm_universal_box_wrap .overlay_image.hero {
 	background-image: url(..//img/hero/2.webp);
-	alt: "hero images";
 }
 
 .edina_tm_universal_box_wrap .content {
@@ -743,12 +742,13 @@ img.svg {
 	font-family: "Montserrat";
 }
 
-.edina_tm_main_title_holder_wrap .title_wrap span {
+.edina_tm_main_title_holder_wrap .title_wrap h2 {
 	color: #fff;
 	font-size: 40px;
 	font-weight: 800;
 	display: inline-block;
 	font-family: "Montserrat";
+	margin: 0;
 }
 
 .edina_tm_about_wrap .author_wrap {
@@ -1936,7 +1936,6 @@ img.svg {
 
 .edina_tm_universal_box_wrap .overlay_image.partners {
 	background-image: url(..//img/jarallax/2.webp);
-	alt: "parallax images";
 }
 
 .edina_tm_universal_box_wrap .overlay_color.partners {
@@ -2292,6 +2291,7 @@ img.svg {
 	font-family: "Montserrat";
 	font-size: 50px;
 	font-weight: 700;
+	margin-top: 0;
 	margin-bottom: 30px;
 	line-height: 1;
 	letter-spacing: -1px;
@@ -2493,7 +2493,7 @@ img.svg {
 		font-size: 36px;
 	}
 
-	.edina_tm_main_title_holder_wrap .title_wrap span {
+	.edina_tm_main_title_holder_wrap .title_wrap h2 {
 		font-size: 36px;
 	}
 
@@ -2594,7 +2594,7 @@ img.svg {
 		font-size: 32px;
 	}
 
-	.edina_tm_main_title_holder_wrap .title_wrap span {
+	.edina_tm_main_title_holder_wrap .title_wrap h2 {
 		font-size: 32px;
 	}
 
