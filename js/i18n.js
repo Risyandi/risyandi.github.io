@@ -72,16 +72,15 @@
         });
 
         // 7. Update SEO meta tags & Page Title dynamically
-        var pageTitle = lang === 'id' 
-            ? "Risyandi | Software Engineer, Pesepeda Bahagia Dan Nomaden Digital."
-            : "Risyandi | Software Engineer, The Happy Cyclist And A Digital Nomad.";
-        
+        var pageTitle = lang === 'id'
+            ? "Risyandi — Software Engineer | AdTech & Digital Marketing"
+            : "Risyandi — Software Engineer | AdTech & Digital Marketing";
+
         var pageDesc = lang === 'id'
-            ? "Risyandi | Seorang minimalis, antusias teknologi, dan nomaden digital dari Indonesia."
-            : "Risyandi | A minimalist, tech enthusiast, and a digital nomad from Indonesia.";
+            ? "Risyandi adalah software engineer asal Indonesia dengan pengalaman 8+ tahun di pengembangan web, AdTech, programmatic advertising, dan digital marketing. Lihat portofolio dan hubungi saya."
+            : "Risyandi is an Indonesia-based software engineer with 8+ years of experience in web development, AdTech, programmatic advertising, and digital marketing. View the portfolio and get in touch.";
 
         document.title = pageTitle;
-        $('meta[name="title"]').attr('content', pageTitle);
         $('meta[property="og:title"]').attr('content', pageTitle);
         $('meta[name="twitter:title"]').attr('content', pageTitle);
 
