@@ -21,7 +21,7 @@ jQuery(document).ready(function () {
 	edina_tm_totop_myhide();
 	edina_tm_nav_bg_scroll();
 	edina_tm_anchor();
-	edina_tm_contact_form();
+	edina_tm_bg_audio();
 	edina_tm_owl_carousel();
 	edina_tm_text_animation();
 	edina_tm_animate_text();
@@ -343,53 +343,29 @@ function edina_tm_anchor() {
 }
 
 // -----------------------------------------------------
-// ----------------    CONTACT FORM    -----------------
+// ----------------    BACKGROUND AUDIO    -------------
 // -----------------------------------------------------
 
-function edina_tm_contact_form() {
+// ponytail: browsers block autoplay until first user interaction, so start playback on the first click/scroll/keypress
+function edina_tm_bg_audio() {
 
 	"use strict";
 
-	jQuery(".contact_form #send_message").on('click', function () {
+	var audio = document.getElementById('bg_audio');
+	if (!audio) {
+		return;
+	}
 
-		var name = jQuery(".contact_form #name").val();
-		var email = jQuery(".contact_form #email").val();
-		var message = jQuery(".contact_form #message").val();
-		var subject = jQuery(".contact_form #subject").val();
-		var success = jQuery(".contact_form .returnmessage").data('success');
+	var start = function () {
+		audio.play().catch(function () { });
+		document.removeEventListener('click', start);
+		document.removeEventListener('scroll', start);
+		document.removeEventListener('keydown', start);
+	};
 
-		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-		//checking for blank fields	
-		if (name === '' || email === '' || message === '') {
-
-			jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
-		} else {
-			// Returns successful data submission message when the entered information is stored in database.
-			jQuery.post("modal/contact.php", {
-				ajax_name: name,
-				ajax_email: email,
-				ajax_message: message,
-				ajax_subject: subject
-			}, function (data) {
-
-				jQuery(".contact_form .returnmessage").append(data); //Append returned message to message paragraph
-
-
-				if (jQuery(".contact_form .returnmessage span.contact_error").length) {
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);
-				} else {
-					jQuery(".contact_form .returnmessage").append("<span class='contact_success'>" + success + "</span>");
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
-				}
-
-				if (data === "") {
-					jQuery("#contact_form")[0].reset(); //To reset form fields on success
-				}
-
-			});
-		}
-		return false;
-	});
+	document.addEventListener('click', start);
+	document.addEventListener('scroll', start);
+	document.addEventListener('keydown', start);
 }
 
 // -----------------------------------------------------
