@@ -29,6 +29,7 @@ jQuery(document).ready(function () {
 	edina_carousel_news();
 	// edina_tm_popup_blog();
 	clickSend();
+	edina_tm_insights_link();
 
 
 	jQuery(window).on('scroll', function () {
@@ -585,6 +586,16 @@ function clickSend() {
 	$('.send-message').on('click', function () {
 		$('#send-message-yes').trigger("click");
 	});
+}
+
+// -----------------------------------------------------
+// -------------    INSIGHTS LINK ROTATOR  --------------
+// -----------------------------------------------------
+
+function edina_tm_insights_link() {
+	"use strict";
+	var urls = ['https://insights.risyandi.com', 'https://risyandi.com/blogs'];
+	jQuery('#see_more_insights').attr('href', urls[Math.floor(Math.random() * urls.length)]);
 }
 
 // owl carousel

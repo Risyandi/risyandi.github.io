@@ -1674,27 +1674,6 @@ img.svg {
 	color: #eee;
 }
 
-.edina_tm_news_wrap .read_more a {
-	color: #fff;
-	text-decoration: none;
-	background-color: #ed2629;
-	padding: 8px 35px;
-	display: inline-block;
-	font-family: "Montserrat";
-	font-weight: 500;
-	border-radius: 3px;
-
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
-}
-
-.edina_tm_news_wrap .read_more a:hover {
-	background-color: #555;
-}
-
 .edina_tm_popup_share_wrap {
 	display: none;
 }
@@ -2137,11 +2116,17 @@ img.svg {
 	border-bottom-color: #fff;
 }
 
-.edina_tm_contact_wrap .edina_tm_button {
+.edina_tm_contact_wrap .edina_tm_button,
+.edina_tm_news_wrap .edina_tm_button {
 	text-align: center;
 }
 
-.edina_tm_contact_wrap .edina_tm_button a {
+.edina_tm_news_wrap .edina_tm_button {
+	margin-top: 50px;
+}
+
+.edina_tm_contact_wrap .edina_tm_button a,
+.edina_tm_news_wrap .edina_tm_button a {
 	color: #fff;
 	text-decoration: none;
 	background-color: #ed2629;
@@ -2158,7 +2143,8 @@ img.svg {
 	transition: all .3s ease;
 }
 
-.edina_tm_contact_wrap .edina_tm_button a:hover {
+.edina_tm_contact_wrap .edina_tm_button a:hover,
+.edina_tm_news_wrap .edina_tm_button a:hover {
 	background-color: #555;
 }
 

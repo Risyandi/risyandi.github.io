@@ -67,17 +67,15 @@ window.portfolioTranslations = {
         "blog.item1.category": "Tips & Tricks",
         "blog.item1.title": "#1 | Tips & Trick — Block Ads on Spotify Desktop App",
         "blog.item1.desc": "If you are a digital music listener, you might not be stranger to some famous music on-demand apps such as Soundcloud, Reverbnation, Joox and Spotify...",
-        "blog.item1.readmore": "Read More",
         
         "blog.item2.category": "Adtech",
         "blog.item2.title": "#1 | Adtech — The Role of Adops (Advertising Operations) in Digital Ads Industry",
         "blog.item2.desc": "Discussing roles, a role is a view of how we should act in a certain situation. Roles exist in our everyday lives...",
-        "blog.item2.readmore": "Read More",
         
         "blog.item3.category": "Algorithm",
         "blog.item3.title": "#1 | Fundamentals Algorithm — Tokenize String",
         "blog.item3.desc": "In this article, I will discuss the fundamentals of creating a Tokenize String algorithm using JavaScript as the scripting language...",
-        "blog.item3.readmore": "Read More",
+        "blog.seemore": "See More Insights",
         
         "collab.title": "Let's Collaborate and Innovate Together",
         "collab.desc": "Let's harness our skills, ideas, and drive to create something exceptional. Together, we can overcome challenges, explore new horizons, and turn visions into reality. Get in touch today, and let's embark on this rewarding journey of collaboration!",
@@ -162,17 +160,15 @@ window.portfolioTranslations = {
         "blog.item1.category": "Tips & Trik",
         "blog.item1.title": "#1 | Tips & Trik — Blokir Iklan Pada Aplikasi Spotify",
         "blog.item1.desc": "Jika anda penikmat musik digital mungkin tidak akan asing lagi dengan beberapa aplikasi musik sesuai permintaan (Music on-demand) terkenal seperti (Soundcloud, Reverbnation, Joox dan Spotify)...",
-        "blog.item1.readmore": "Baca Selengkapnya",
         
         "blog.item2.category": "Adtech",
         "blog.item2.title": "#1 | Adtech — Peran Adops (Advertising Operations) Di Industri Iklan Digital",
         "blog.item2.desc": "Membahas tentang peran, Peran adalah sebuah pandangan mengenai bagaimana kita seharusnya bertindak dalam situasi tertentu. Peran ada di setiap kehidupan sehari-hari kita...",
-        "blog.item2.readmore": "Baca Selengkapnya",
         
         "blog.item3.category": "Algoritma",
         "blog.item3.title": "#1 | Fundamentals Algoritma — Tokenize String",
         "blog.item3.desc": "Pada artikel ini saya akan membahas tentang fundamentals cara membuat algoritma Tokenize String, menggunakan bahasa scripting yaitu Javascript...",
-        "blog.item3.readmore": "Baca Selengkapnya",
+        "blog.seemore": "Lihat Insight Lainnya",
         
         "collab.title": "Mari Berkolaborasi dan Berinovasi Bersama",
         "collab.desc": "Mari manfaatkan keterampilan, ide, dan dorongan kita untuk menciptakan sesuatu yang luar biasa. Bersama-sama, kita dapat mengatasi tantangan, menjelajahi cakrawala baru, dan mengubah visi menjadi kenyataan. Hubungi saya hari ini, dan mari kita mulai perjalanan kolaborasi yang bermanfaat ini!",
