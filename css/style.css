@@ -1987,6 +1987,14 @@ img.svg {
 	margin: 0px;
 }
 
+.edina_tm_partners_wrap ul li img {
+	display: block;
+	width: 100%;
+	max-width: 160px;
+	height: auto;
+	margin: 0 auto;
+}
+
 /*---------------------------------------------------*/
 /*	12) EDINA WORK TOGETHER
 /*---------------------------------------------------*/

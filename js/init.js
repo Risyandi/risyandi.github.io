@@ -418,7 +418,8 @@ function edina_tm_owl_carousel() {
 		smartSpeed: 3000,
 		responsive: {
 			0: {
-				items: 1
+				items: 1,
+				margin: 0
 			},
 			480: {
 				items: 2
