@@ -51,14 +51,31 @@
 		},
 		"sameAs": [
 			"https://medium.com/@Risyandi",
-			"https://twitter.com/risyandi94"
+			"https://twitter.com/risyandi94",
+			"https://insights.risyandi.com"
+		],
+		"knowsAbout": [
+			"Web Development",
+			"AdTech",
+			"Programmatic Advertising",
+			"Digital Marketing"
 		]
+	}
+	</script>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "Risyandi",
+		"url": "https://risyandi.com/"
 	}
 	</script>
 	<!-- external library -->
 	<link rel="canonical" href="https://risyandi.com/" />
 	<link rel='shortlink' href='https://risyandi.com/' />
-	<link rel="shortcut icon" href="./img/logo/logo.webp" id="favicon-ico">
+	<link rel="icon" href="img/logo/favicon.ico" sizes="48x48" />
+	<link rel="icon" type="image/webp" href="img/logo/logo.webp" />
+	<link rel="apple-touch-icon" href="img/logo/apple-touch-icon.png" id="favicon-ico">
 	<!-- google tag manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l] || []; w[l].push({
 			'gtm.start':
@@ -70,14 +87,13 @@
 	<!-- styles -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="image" href="img/hero/2.webp">
 	<link
-		href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600;700&amp;display=swap"
 		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="main-pages/assets/owl-carousel/assets/owl.carousel.min.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/plugins.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.4" />
+	<link rel="stylesheet" href="main-pages/assets/owl-carousel/assets/owl.carousel.min.css?v=1.1" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/plugins.css?v=1.1" />
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.5" />
 </head>
 
 <body>
@@ -93,7 +109,7 @@
 				<div class="container">
 					<div class="navigation_inner">
 						<div class="logo">
-							<a class="dark_logo" href="#"><img src="img/logo/logo.webp" alt="logo risyandi" /></a>
+							<a class="dark_logo" href="#"><img src="img/logo/logo.webp" alt="logo risyandi" width="37" height="37" /></a>
 						</div>
 						<div class="nav_list_wrap">
 							<nav class="menu">
@@ -663,22 +679,22 @@
 									<ul class="owl-carousel">
 										<li class="item">
 											<a href="https://wistaramedia.com/" target="_blank" rel="noopener noreferrer">
-												<img src="img/partners/1.webp" alt="Wistara Media logo" loading="lazy" />
+												<img width="130" height="50" src="img/partners/1.webp" alt="Wistara Media logo" loading="lazy" />
 											</a>
 										</li>
 										<li class="item">
 											<a href="http://ngarsa.com/" target="_blank" rel="noopener noreferrer">
-												<img src="img/partners/2.webp" alt="Ngarsa Digital logo" loading="lazy" />
+												<img width="130" height="50" src="img/partners/2.webp" alt="Ngarsa Digital logo" loading="lazy" />
 											</a>
 										</li>
 										<li class="item">
 											<a href="http://populify.com/" target="_blank" rel="noopener noreferrer">
-												<img src="img/partners/3.webp" alt="Populify logo" loading="lazy" />
+												<img width="130" height="50" src="img/partners/3.webp" alt="Populify logo" loading="lazy" />
 											</a>
 										</li>
 										<li class="item">
 											<a href="#" target="_blank" rel="noopener noreferrer">
-												<img src="img/partners/4.webp" alt="Partner logo" loading="lazy" />
+												<img width="130" height="50" src="img/partners/4.webp" alt="Partner logo" loading="lazy" />
 											</a>
 										</li>
 									</ul>
@@ -776,7 +792,7 @@
 			</footer>
 
 			<!-- backsound -->
-			<audio id="bg_audio" autoplay preload="auto" loop src="background_sound.mp3"></audio>
+			<audio id="bg_audio" preload="none" loop src="background_sound.mp3"></audio>
 
 		</div>
 
@@ -788,13 +804,13 @@
 	</div>
 
 	<!-- scripts -->
-	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script defer src="main-pages/assets/owl-carousel/owl.carousel.min.js"></script>
-	<script defer src="js/plugins.js"></script>
-	<script defer src="js/translations.js"></script>
+	<script defer src="js/plugins.js?v=1.1"></script>
+	<script defer src="js/translations.js?v=1.1"></script>
 	<script defer src="js/i18n.js"></script>
-	<script defer src="js/init.js?v=1.5"></script>
+	<script defer src="js/init.js?v=1.6"></script>
 
 </body>
 
